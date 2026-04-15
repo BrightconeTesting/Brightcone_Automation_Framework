@@ -1,0 +1,33 @@
+2026-04-07 11:34:17,402 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-07 11:34:17,402 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-07 11:34:21,386 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-07 11:34:21,769 - Bright_Automation - INFO - --- START FEATURE: Resume Management in Recruitment Module ---
+2026-04-07 11:34:22,046 - Bright_Automation - INFO - Scenario: Upload resume with unsupported file format - Status: STARTED
+2026-04-07 11:34:22,134 - Bright_Automation - INFO -   Step: GIVEN I am logged into the application
+2026-04-07 11:34:57,220 - Bright_Automation - INFO -   Step: I am logged into the application - Status: PASSED
+2026-04-07 11:34:57,222 - Bright_Automation - INFO -   Step: WHEN I navigate to Recruitment module
+2026-04-07 11:34:57,528 - Bright_Automation - INFO -   Step: I navigate to Recruitment module - Status: PASSED
+2026-04-07 11:34:57,531 - Bright_Automation - INFO -   Step: WHEN I click on continue button of ML engineer role
+2026-04-07 11:35:00,531 - Bright_Automation - INFO -   Step: I click on continue button of ML engineer role - Status: PASSED
+2026-04-07 11:35:00,534 - Bright_Automation - INFO -   Step: WHEN I click on "Add Candidate" or "Upload Resume"
+2026-04-07 11:35:02,062 - Bright_Automation - INFO -   Step: I click on "Add Candidate" or "Upload Resume" - Status: PASSED
+2026-04-07 11:35:02,064 - Bright_Automation - INFO -   Step: WHEN I upload a Invalid resume file
+2026-04-07 11:35:02,673 - Bright_Automation - INFO -   Step: I upload a Invalid resume file - Status: PASSED
+2026-04-07 11:35:02,675 - Bright_Automation - INFO -   Step: THEN I should see an error message for invalid file type
+2026-04-07 11:35:02,730 - Bright_Automation - INFO -   Step: I should see an error message for invalid file type - Status: PASSED
+2026-04-07 11:35:02,731 - Bright_Automation - INFO -   Step: THEN the resume should not be uploaded
+2026-04-07 11:35:20,153 - Bright_Automation - INFO -   Step: the resume should not be uploaded - Status: PASSED
+2026-04-07 11:35:20,168 - Bright_Automation - INFO - Scenario: Upload resume with unsupported file format - Status: PASSED
+
+2026-04-07 11:35:20,178 - Bright_Automation - INFO - --- END FEATURE: Resume Management in Recruitment Module ---
+2026-04-07 11:35:20,185 - Bright_Automation - INFO - ==================================================
+2026-04-07 11:35:20,191 - Bright_Automation - INFO -  EXECUTION SUMMARY DASHBOARD 
+2026-04-07 11:35:20,195 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-07 11:35:20,200 - Bright_Automation - INFO -   Total Scenarios  : 0
+2026-04-07 11:35:20,204 - Bright_Automation - INFO -   Passed           : 0
+2026-04-07 11:35:20,207 - Bright_Automation - INFO -   Failed           : 0
+2026-04-07 11:35:20,210 - Bright_Automation - INFO -   Skipped          : 0
+2026-04-07 11:35:20,211 - Bright_Automation - INFO -   Execution Time   : 62.78 seconds
+2026-04-07 11:35:20,219 - Bright_Automation - INFO -   Overall Status   : PASS
+2026-04-07 11:35:20,220 - Bright_Automation - INFO - ==================================================
+2026-04-07 11:35:20,225 - Bright_Automation - INFO - Quitting browser...

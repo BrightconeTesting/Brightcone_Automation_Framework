@@ -1,0 +1,43 @@
+2026-04-08 18:08:37,981 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-08 18:08:37,982 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-08 18:08:41,534 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-08 18:08:41,551 - Bright_Automation - INFO - --- START FEATURE: Resume Management in Recruitment Module ---
+2026-04-08 18:08:41,575 - Bright_Automation - INFO - Scenario: Delete candidate from Recruitment module using dynamic resume name - Status: STARTED
+2026-04-08 18:08:41,595 - Bright_Automation - INFO -   Step: GIVEN I am logged into the application
+2026-04-08 18:09:03,755 - Bright_Automation - INFO -   Step: I am logged into the application - Status: PASSED
+2026-04-08 18:09:03,755 - Bright_Automation - INFO -   Step: THEN I should be on the "Dashboard" page
+2026-04-08 18:09:03,762 - Bright_Automation - INFO -   Step: I should be on the "Dashboard" page - Status: PASSED
+2026-04-08 18:09:03,762 - Bright_Automation - INFO -   Step: WHEN I navigate to Recruitment module
+2026-04-08 18:09:03,978 - Bright_Automation - INFO -   Step: I navigate to Recruitment module - Status: PASSED
+2026-04-08 18:09:03,983 - Bright_Automation - INFO -   Step: THEN I should be on the "Recruitment" page
+2026-04-08 18:09:04,019 - Bright_Automation - INFO -   Step: I should be on the "Recruitment" page - Status: PASSED
+2026-04-08 18:09:04,024 - Bright_Automation - INFO -   Step: WHEN I click on continue button of ML engineer role
+2026-04-08 18:09:06,416 - Bright_Automation - INFO -   Step: I click on continue button of ML engineer role - Status: PASSED
+2026-04-08 18:09:06,426 - Bright_Automation - INFO -   Step: THEN I should be on the "Overview" page
+2026-04-08 18:09:06,510 - Bright_Automation - INFO -   Step: I should be on the "Overview" page - Status: PASSED
+2026-04-08 18:09:06,512 - Bright_Automation - INFO -   Step: WHEN I click on "Candidate" tab
+2026-04-08 18:09:07,733 - Bright_Automation - INFO -   Step: I click on "Candidate" tab - Status: PASSED
+2026-04-08 18:09:07,736 - Bright_Automation - INFO -   Step: WHEN I switch to table view
+2026-04-08 18:09:09,937 - Bright_Automation - INFO -   Step: I switch to table view - Status: PASSED
+2026-04-08 18:09:09,938 - Bright_Automation - INFO -   Step: WHEN I click on the three dot menu based on resume name "Prasaanthi"
+2026-04-08 18:09:10,221 - Bright_Automation - INFO -   Step: I click on the three dot menu based on resume name "Prasaanthi" - Status: PASSED
+2026-04-08 18:09:10,224 - Bright_Automation - INFO -   Step: THEN I click on delete candidate option
+2026-04-08 18:09:25,262 - Bright_Automation - WARNING - Scenario: Delete candidate from Recruitment module using dynamic resume name - Status: SKIPPED
+
+2026-04-08 18:09:25,271 - Bright_Automation - INFO - --- END FEATURE: Resume Management in Recruitment Module ---
+2026-04-08 18:09:25,275 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 18:09:25,277 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-04-08 18:09:25,279 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 18:09:25,279 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-04-08 18:09:25,280 - Bright_Automation - INFO -   Scenarios Passed    : 0
+2026-04-08 18:09:25,280 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-04-08 18:09:25,280 - Bright_Automation - INFO -   Scenarios Skipped   : 1
+2026-04-08 18:09:25,281 - Bright_Automation - INFO -   Total Run Time      : 47.29s
+2026-04-08 18:09:25,281 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-04-08 18:09:25,283 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 18:09:25,284 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-04-08 18:09:38,754 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-04-08 18:09:38,806 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-04-08 18:09:43,316 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-08 18:09:43,324 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-08 18:09:43,324 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

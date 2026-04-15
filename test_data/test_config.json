@@ -1,0 +1,27 @@
+{
+    "users": {
+        "admin": {
+            "name": "Admin User",
+            "role": "Administrator"
+        },
+        "engineer": {
+            "name": "Engineering Lead",
+            "role": "Engineering"
+        }
+    },
+    "documents": [
+        {
+            "id": "DOC001",
+            "type": "Resume",
+            "file_name": "Sample_Resume.pdf",
+            "category": "Engineering"
+        },
+        {
+            "id": "DOC002",
+            "type": "Offer Letter",
+            "file_name": "Offer_Letter.pdf",
+            "category": "Admin"
+        }
+    ],
+    "environment": "staging"
+}

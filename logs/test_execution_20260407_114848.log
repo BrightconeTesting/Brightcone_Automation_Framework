@@ -1,0 +1,14 @@
+2026-04-07 11:48:48,096 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-07 11:48:48,099 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-07 11:48:53,272 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-07 11:48:53,826 - Bright_Automation - INFO - ==================================================
+2026-04-07 11:48:53,826 - Bright_Automation - INFO -  EXECUTION SUMMARY DASHBOARD 
+2026-04-07 11:48:53,831 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-07 11:48:53,836 - Bright_Automation - INFO -   Total Scenarios  : 0
+2026-04-07 11:48:53,840 - Bright_Automation - INFO -   Passed           : 0
+2026-04-07 11:48:53,844 - Bright_Automation - INFO -   Failed           : 0
+2026-04-07 11:48:53,857 - Bright_Automation - INFO -   Skipped          : 0
+2026-04-07 11:48:53,865 - Bright_Automation - INFO -   Execution Time   : 5.73 seconds
+2026-04-07 11:48:53,876 - Bright_Automation - INFO -   Overall Status   : PASS
+2026-04-07 11:48:53,893 - Bright_Automation - INFO - ==================================================
+2026-04-07 11:48:53,894 - Bright_Automation - INFO - Quitting browser...

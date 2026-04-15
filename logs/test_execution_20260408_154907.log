@@ -1,0 +1,32 @@
+2026-04-08 15:49:07,636 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-08 15:49:07,636 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-08 15:49:11,170 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-08 15:49:11,241 - Bright_Automation - INFO - --- START FEATURE: Resume Management in Recruitment Module ---
+2026-04-08 15:49:11,272 - Bright_Automation - INFO - Scenario: Add a resume for ML Engineer role - Status: STARTED
+2026-04-08 15:49:11,357 - Bright_Automation - INFO -   Step: GIVEN I am logged into the application
+2026-04-08 15:49:32,512 - Bright_Automation - INFO -   Step: I am logged into the application - Status: PASSED
+2026-04-08 15:49:32,514 - Bright_Automation - INFO -   Step: THEN I should be on the "Dashboard" page
+2026-04-08 15:49:32,517 - Bright_Automation - INFO -   Step: I should be on the "Dashboard" page - Status: PASSED
+2026-04-08 15:49:32,517 - Bright_Automation - INFO -   Step: WHEN I navigate to Recruitment module
+2026-04-08 15:49:32,761 - Bright_Automation - INFO -   Step: I navigate to Recruitment module - Status: PASSED
+2026-04-08 15:49:32,763 - Bright_Automation - INFO -   Step: THEN I should be on the "Recruitment" page
+2026-04-08 15:49:32,790 - Bright_Automation - INFO -   Step: I should be on the "Recruitment" page - Status: PASSED
+2026-04-08 15:49:32,819 - Bright_Automation - WARNING - Scenario: Add a resume for ML Engineer role - Status: SKIPPED
+
+2026-04-08 15:49:32,852 - Bright_Automation - INFO - --- END FEATURE: Resume Management in Recruitment Module ---
+2026-04-08 15:49:32,870 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 15:49:32,870 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-04-08 15:49:32,871 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 15:49:32,881 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-04-08 15:49:32,885 - Bright_Automation - INFO -   Scenarios Passed    : 0
+2026-04-08 15:49:32,886 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-04-08 15:49:32,886 - Bright_Automation - INFO -   Scenarios Skipped   : 1
+2026-04-08 15:49:32,887 - Bright_Automation - INFO -   Total Run Time      : 25.23s
+2026-04-08 15:49:32,889 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-04-08 15:49:32,889 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 15:49:32,890 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-04-08 15:49:46,328 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-04-08 15:49:46,343 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-04-08 15:49:50,745 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-08 15:49:50,750 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-08 15:49:50,750 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

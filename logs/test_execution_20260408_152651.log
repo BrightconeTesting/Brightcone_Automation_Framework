@@ -1,0 +1,75 @@
+2026-04-08 15:26:51,376 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-08 15:26:51,377 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-08 15:26:55,209 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-08 15:26:55,238 - Bright_Automation - INFO - --- START FEATURE: Document Upload and Status Validation ---
+2026-04-08 15:26:55,250 - Bright_Automation - INFO - Scenario: Upload document and verify its status - Status: STARTED
+2026-04-08 15:26:55,349 - Bright_Automation - INFO -   Step: GIVEN User launches the application
+2026-04-08 15:26:56,371 - Bright_Automation - INFO -   Step: User launches the application - Status: PASSED
+2026-04-08 15:26:56,372 - Bright_Automation - INFO -   Step: GIVEN User logs in with valid credentials
+2026-04-08 15:27:22,345 - Bright_Automation - INFO -   Step: User logs in with valid credentials - Status: PASSED
+2026-04-08 15:27:22,346 - Bright_Automation - INFO -   Step: THEN User should be on the "Dashboard" page
+2026-04-08 15:27:22,361 - Bright_Automation - INFO -   Step: User should be on the "Dashboard" page - Status: PASSED
+2026-04-08 15:27:22,362 - Bright_Automation - INFO -   Step: WHEN User navigates to Documents page
+2026-04-08 15:27:22,561 - Bright_Automation - INFO -   Step: User navigates to Documents page - Status: PASSED
+2026-04-08 15:27:22,568 - Bright_Automation - INFO -   Step: THEN User should be on the "Documents" page
+2026-04-08 15:27:22,595 - Bright_Automation - INFO -   Step: User should be on the "Documents" page - Status: PASSED
+2026-04-08 15:27:22,610 - Bright_Automation - INFO -   Step: WHEN User uploads a document
+2026-04-08 15:27:32,130 - Bright_Automation - INFO -   Step: User uploads a document - Status: PASSED
+2026-04-08 15:27:32,131 - Bright_Automation - INFO -   Step: WHEN User selects the "Admin", "Engineering" and "Support" categories
+2026-04-08 15:27:35,609 - Bright_Automation - INFO -   Step: User selects the "Admin", "Engineering" and "Support" categories - Status: PASSED
+2026-04-08 15:27:35,609 - Bright_Automation - INFO -   Step: WHEN User clicks the "Upload" button
+2026-04-08 15:27:37,744 - Bright_Automation - INFO -   Step: User clicks the "Upload" button - Status: PASSED
+2026-04-08 15:27:37,745 - Bright_Automation - INFO -   Step: THEN a popup with text "Sensitive information detected. This has been flagged for review." should appear
+2026-04-08 15:27:45,388 - Bright_Automation - INFO -   Step: a popup with text "Sensitive information detected. This has been flagged for review." should appear - Status: PASSED
+2026-04-08 15:27:45,389 - Bright_Automation - INFO -   Step: THEN Uploaded document should be visible in My Uploads
+2026-04-08 15:27:46,599 - Bright_Automation - INFO -   Step: Uploaded document should be visible in My Uploads - Status: PASSED
+2026-04-08 15:27:46,602 - Bright_Automation - INFO -   Step: THEN User should capture the document name
+2026-04-08 15:27:46,602 - Bright_Automation - INFO -   Step: User should capture the document name - Status: PASSED
+2026-04-08 15:27:46,602 - Bright_Automation - INFO - Scenario: Upload document and verify its status - Status: PASSED
+
+2026-04-08 15:27:46,607 - Bright_Automation - INFO - --- END FEATURE: Document Upload and Status Validation ---
+2026-04-08 15:27:46,613 - Bright_Automation - INFO - --- START FEATURE: User Login with OTP ---
+2026-04-08 15:27:46,613 - Bright_Automation - INFO - Scenario: Login using email and OTP - Status: STARTED
+2026-04-08 15:27:46,616 - Bright_Automation - INFO -   Step: GIVEN I open the Brightcone login page
+2026-04-08 15:27:47,022 - Bright_Automation - INFO -   Step: I open the Brightcone login page - Status: PASSED
+2026-04-08 15:27:47,023 - Bright_Automation - INFO -   Step: WHEN I enter my email "munjalaharikrishna123@gmail.com"
+2026-04-08 15:27:47,761 - Bright_Automation - INFO -   Step: I enter my email "munjalaharikrishna123@gmail.com" - Status: PASSED
+2026-04-08 15:27:47,762 - Bright_Automation - INFO -   Step: WHEN I click on the Continue button
+2026-04-08 15:27:47,889 - Bright_Automation - INFO -   Step: I click on the Continue button - Status: PASSED
+2026-04-08 15:27:47,890 - Bright_Automation - INFO -   Step: THEN I fetch the latest 6-digit OTP from my Gmail inbox
+2026-04-08 15:28:01,572 - Bright_Automation - INFO -   Step: I fetch the latest 6-digit OTP from my Gmail inbox - Status: PASSED
+2026-04-08 15:28:01,577 - Bright_Automation - INFO -   Step: THEN I enter the 6-digit OTP into separate input fields
+2026-04-08 15:28:02,123 - Bright_Automation - INFO -   Step: I enter the 6-digit OTP into separate input fields - Status: PASSED
+2026-04-08 15:28:02,123 - Bright_Automation - INFO -   Step: THEN I click on the Login button
+2026-04-08 15:28:02,222 - Bright_Automation - INFO -   Step: I click on the Login button - Status: PASSED
+2026-04-08 15:28:02,223 - Bright_Automation - INFO -   Step: THEN I should be successfully logged in to the dashboard
+2026-04-08 15:28:07,237 - Bright_Automation - INFO -   Step: I should be successfully logged in to the dashboard - Status: PASSED
+2026-04-08 15:28:07,237 - Bright_Automation - INFO - Scenario: Login using email and OTP - Status: PASSED
+
+2026-04-08 15:28:07,240 - Bright_Automation - INFO - --- END FEATURE: User Login with OTP ---
+2026-04-08 15:28:07,243 - Bright_Automation - INFO - --- START FEATURE: Resume Management in Recruitment Module ---
+2026-04-08 15:28:07,243 - Bright_Automation - INFO - Scenario: Add a resume for ML Engineer role - Status: STARTED
+2026-04-08 15:28:07,246 - Bright_Automation - INFO -   Step: GIVEN I am logged into the application
+2026-04-08 15:28:38,025 - Bright_Automation - WARNING - Scenario: Add a resume for ML Engineer role - Status: SKIPPED
+
+2026-04-08 15:28:38,031 - Bright_Automation - INFO - Scenario: Upload resume with unsupported file format - Status: STARTED
+2026-04-08 15:28:38,031 - Bright_Automation - INFO -   Step: GIVEN I am logged into the application
+2026-04-08 15:29:09,163 - Bright_Automation - WARNING - Scenario: Upload resume with unsupported file format - Status: SKIPPED
+
+2026-04-08 15:29:09,174 - Bright_Automation - INFO - --- END FEATURE: Resume Management in Recruitment Module ---
+2026-04-08 15:29:09,187 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 15:29:09,189 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-04-08 15:29:09,191 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 15:29:09,193 - Bright_Automation - INFO -   Scenarios Selected  : 4
+2026-04-08 15:29:09,193 - Bright_Automation - INFO -   Scenarios Passed    : 2
+2026-04-08 15:29:09,195 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-04-08 15:29:09,195 - Bright_Automation - INFO -   Scenarios Skipped   : 2
+2026-04-08 15:29:09,195 - Bright_Automation - INFO -   Total Run Time      : 137.81s
+2026-04-08 15:29:09,195 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-04-08 15:29:09,202 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 15:29:09,204 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-04-08 15:29:22,717 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-04-08 15:29:22,735 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-04-08 15:29:27,346 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-08 15:29:27,357 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-08 15:29:27,357 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

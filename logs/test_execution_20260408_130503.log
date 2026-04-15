@@ -1,0 +1,40 @@
+2026-04-08 13:05:03,779 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-08 13:05:03,779 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-08 13:05:07,289 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-08 13:05:07,313 - Bright_Automation - INFO - --- START FEATURE: Document Upload and Status Validation ---
+2026-04-08 13:05:07,320 - Bright_Automation - INFO - Scenario: Upload document and verify its status dynamically - Status: STARTED
+2026-04-08 13:05:07,325 - Bright_Automation - INFO -   Step: GIVEN User launches the application
+2026-04-08 13:05:10,622 - Bright_Automation - INFO -   Step: User launches the application - Status: PASSED
+2026-04-08 13:05:10,624 - Bright_Automation - INFO -   Step: GIVEN User logs in with valid credentials
+2026-04-08 13:05:35,302 - Bright_Automation - INFO -   Step: User logs in with valid credentials - Status: PASSED
+2026-04-08 13:05:35,302 - Bright_Automation - INFO -   Step: WHEN User navigates to Documents page
+2026-04-08 13:05:35,517 - Bright_Automation - INFO -   Step: User navigates to Documents page - Status: PASSED
+2026-04-08 13:05:35,519 - Bright_Automation - INFO -   Step: WHEN User uploads a document
+2026-04-08 13:05:44,891 - Bright_Automation - INFO -   Step: User uploads a document - Status: PASSED
+2026-04-08 13:05:44,898 - Bright_Automation - INFO -   Step: WHEN User selects the "Admin", "Engineering" and "Support" categories
+2026-04-08 13:05:48,615 - Bright_Automation - INFO -   Step: User selects the "Admin", "Engineering" and "Support" categories - Status: PASSED
+2026-04-08 13:05:48,619 - Bright_Automation - INFO -   Step: WHEN User clicks the "Upload" button
+2026-04-08 13:05:50,813 - Bright_Automation - INFO -   Step: User clicks the "Upload" button - Status: PASSED
+2026-04-08 13:05:50,813 - Bright_Automation - INFO -   Step: THEN a popup with text "Sensitive information detected. This has been flagged for review." should appear
+2026-04-08 13:06:00,416 - Bright_Automation - ERROR -   Step: a popup with text "Sensitive information detected. This has been flagged for review." should appear - Status: FAILED
+2026-04-08 13:06:00,742 - Bright_Automation - INFO -   Screenshot saved at: screenshots\FAILED_a_popup_with_text_"Sensitive_information_detected._20260408_130600.png
+2026-04-08 13:06:00,906 - Bright_Automation - INFO -   Screenshot attached to Allure report.
+2026-04-08 13:06:00,911 - Bright_Automation - ERROR - Scenario: Upload document and verify its status dynamically - Status: FAILED
+
+2026-04-08 13:06:00,915 - Bright_Automation - INFO - --- END FEATURE: Document Upload and Status Validation ---
+2026-04-08 13:06:00,934 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 13:06:00,934 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-04-08 13:06:00,935 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 13:06:00,935 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-04-08 13:06:00,935 - Bright_Automation - INFO -   Scenarios Passed    : 0
+2026-04-08 13:06:00,937 - Bright_Automation - INFO -   Scenarios Failed    : 1
+2026-04-08 13:06:00,937 - Bright_Automation - INFO -   Scenarios Skipped   : 0
+2026-04-08 13:06:00,937 - Bright_Automation - INFO -   Total Run Time      : 57.15s
+2026-04-08 13:06:00,938 - Bright_Automation - INFO -   Overall Status      : FAIL
+2026-04-08 13:06:00,939 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 13:06:00,939 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-04-08 13:06:14,469 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-04-08 13:06:14,514 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-04-08 13:06:19,402 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-08 13:06:19,406 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-08 13:06:19,407 - Bright_Automation - INFO - To view, run: allure open reports/allure-report
