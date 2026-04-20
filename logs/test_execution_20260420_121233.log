@@ -1,0 +1,19 @@
+2026-04-20 12:12:34,262 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-20 12:12:34,262 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-20 12:12:34,262 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-20 12:12:37,647 - Bright_Automation - INFO - Browser launched for Staging
+2026-04-20 12:12:37,670 - Bright_Automation - INFO - Scenario: Add a resume for ML Engineer role - STARTED
+2026-04-20 12:12:37,723 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Add a resume for ML Engineer role' and Role: 'user'
+2026-04-20 12:12:37,737 - Bright_Automation - INFO - Test data loaded for scenario: Add a resume for ML Engineer role
+2026-04-20 12:12:37,743 - Bright_Automation - DEBUG - Scenario Data: {'scenario': 'Add a resume for ML Engineer role', 'role': 'user', 'file_name': 'Munjala_Anand_Tester_Resume (1).docx', 'expected_result': 'success', 'category': None, 'job_role': 'ML Engineer', 'resume_name': None}
+2026-04-20 12:12:37,755 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-04-20 12:12:40,217 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-04-20 12:12:40,217 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-04-20 12:12:41,240 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-04-20 12:13:06,503 - Bright_Automation - INFO - Navigating to Recruitment module...
+2026-04-20 12:13:06,730 - Bright_Automation - INFO - Clicking Continue button for role: ML Engineer
+2026-04-20 12:13:09,678 - Bright_Automation - INFO - Navigating to Candidate upload section...
+2026-04-20 12:13:10,551 - Bright_Automation - INFO - Uploading recruitment document: C:\Users\Dell\Downloads\Munjala_Anand_Tester_Resume (1).docx
+2026-04-20 12:13:14,328 - Bright_Automation - INFO - Checking for successful upload...
+2026-04-20 12:13:15,130 - Bright_Automation - INFO - Candidate verification successful!
+2026-04-20 12:13:17,559 - Bright_Automation - INFO - Test execution completed.

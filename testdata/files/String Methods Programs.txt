@@ -1,0 +1,378 @@
+1. Convert String to Uppercase
+   
+   public class UpperCaseExample 
+   {
+    public static void main(String[] args) 
+	{
+        String s = "hello world";
+        System.out.println(s.toUpperCase());
+    }
+   }
+   
+
+2. Convert String to Lowercase
+
+   public class LowerCaseExample 
+   {
+    public static void main(String[] args) 
+	{
+        String s = "HELLO WORLD";
+        System.out.println(s.toLowerCase());
+    }
+   }
+   
+
+3. Find Length of a String
+
+   public class StringLength 
+   {
+    public static void main(String[] args) 
+	{
+        String s = "Java Programming";
+        System.out.println("Length: " + s.length());
+    }
+   }
+   
+
+4. Compare Two Strings (equals)
+   
+   public class CompareStrings 
+   {
+    public static void main(String[] args) 
+	{
+        String a = "hello";
+        String b = "hello";
+
+        if (a.equals(b))
+            System.out.println("Equal");
+        else
+            System.out.println("Not Equal");
+    }
+   }
+   
+   
+5. Compare Without Case (equalsIgnoreCase)
+
+   public class CompareIgnoreCase 
+   {
+    public static void main(String[] args) 
+	{
+        String a = "Hello";
+        String b = "hello";
+
+        System.out.println(a.equalsIgnoreCase(b));
+    }
+   }
+   
+   
+6. Concatenate Two Strings
+   
+   public class ConcatStrings 
+   {
+    public static void main(String[] args) 
+	{
+        String a = "Hello ";
+        String b = "World";
+
+        System.out.println(a + b); 
+    }
+   }
+   
+   
+7. Extract Substring
+   
+   public class SubstringExample 
+   {
+    public static void main(String[] args) 
+	{
+        String s = "Java Programming";
+        System.out.println(s.substring(5));        // from index 5
+        System.out.println(s.substring(0, 4));     // from 0 to 3
+    }
+   }
+   
+8. Find Character at Position
+   
+   public class CharAtExample
+   {
+    public static void main(String[] args) 
+	{
+        String s = "Java";
+        System.out.println(s.charAt(2));            // prints 'v'
+    }
+   }
+   
+9. Replace Characters
+   
+   public class ReplaceExample 
+   {
+    public static void main(String[] args) 
+	{
+        String s = "banana";
+        System.out.println(s.replace('a', 'o'));      // bonono
+    }
+   }
+   
+   
+10. Check If a String Contains a Word
+   
+   public class ContainsExample 
+   {
+    public static void main(String[] args) 
+	{
+        String s = "Java programming is fun";
+        System.out.println(s.contains("fun"));
+    }
+   }
+   
+11. Trim Leading and Trailing Spaces
+   
+   public class TrimExample 
+   {
+    public static void main(String[] args) 
+	{
+        String s = "   Hello Java   ";
+        System.out.println(s.trim());
+    }
+   }
+   
+12. Split a String Into Words
+  
+  public class SplitExample 
+  {
+    public static void main(String[] args) 
+	{
+        String s = "Java is fun";
+        String[] words = s.split(" ");
+
+        for (int i = 0; i < words.length; i++) 
+		{
+            System.out.println(words[i]);
+        }
+    }
+   }
+
+13. Print SpecialCharacter
+
+    package StringMethods;
+    public class SpecialCharacter
+	{
+      public static void main(String[] args) 
+	  {
+		String values="abc#123";
+		//String[] a=values.split("#");
+		for(int i = 0; i<=values.length()-1; i++) 
+		{
+			if(!Character.isLetterOrDigit(values.charAt(i))) 
+			{
+				System.out.println(values.charAt(i));
+			}
+		}
+	  }
+	}
+	
+14. Convert String to Character Array
+
+    public class ToCharArrayExample 
+	{
+    public static void main(String[] args) 
+	{
+        String s = "Java";
+        char[] arr = s.toCharArray();
+
+        for (int i = 0; i < arr.length; i++) 
+		{
+            System.out.println(arr[i]);
+        }
+    }
+   }
+   
+15. Convert Character Array to String
+
+    public class CharArrayToString 
+	{
+     public static void main(String[] args)
+	 {
+        char[] arr = {'J', 'A', 'V', 'A'};
+        String s = new String(arr);
+        System.out.println(s);
+      }
+     }
+
+16. Check if String Starts With a Word
+    
+	public class StartsWithExample 
+	{
+      public static void main(String[] args) 
+	  {
+        String s = "Java programming";
+        System.out.println(s.startsWith("Java"));
+      }
+    }
+
+17. Check if String Ends With a Word
+    
+	public class EndsWithExample 
+	{
+      public static void main(String[] args)
+	  {
+        String s = "Hello World";
+        System.out.println(s.endsWith("World"));
+       }
+    }
+	
+18. Count Number of Words in a String
+
+    public class CountNumberOfStrings 
+	{
+       public static void main(String[] args)
+	   {
+	    String a="I learn Java Programs and also softwsre testing ";
+		String[] word=a.split(" ");
+		System.out.println(a.length());    //count all the characters
+		System.out.println(word.length);    //count how many words
+        }
+	}
+	
+19. Print CommonString Words
+
+    public class CommonString 
+     {
+       public static void main(String[] args)
+	   {
+		String a="hai this is divya";
+		String b="hai this a QA Program";
+		String[] s1=a.split(" ");
+		String[] s2=b.split(" ");
+		
+		for(int i=0; i<s1.length; i++)
+		{
+			for(int j=0; j<s2.length; j++)
+			{
+				if(s1[i].equals(s2[i]))
+				{
+					System.out.println(s1[i]);
+					break;
+				}
+			}
+		}
+
+	    }
+
+     }
+	 
+20. Write a java program to find the given String is palindrome or not?
+
+     public class CheckPalindrome 
+	 {
+	    public static void main(String[] Args)
+	   {
+		//String a="abcdabcd";
+		  String a="abcba";
+		  String b="";
+		
+		  System.out.println(a.length());
+		  for(int i=a.length()-1; i>=0; i--)
+		    {
+			b=b+a.charAt(i);
+		    }
+		   if(a.equals(b))
+		     {
+			    System.out.println("This is palindrome");
+		      }
+		   else
+		    {
+			    System.out.println("This is not a palindrome");
+		    }
+	    }
+	}
+	
+21. Total String will reverse
+
+     public class StringReverse 
+	 {
+        public static void main(String[] args) {
+		String a="My name is Divya";
+		System.out.println(" The number of words are in given string: "+a.length());
+        System.out.println(a);
+        for(int i=a.length()-1; i>=0; i--)
+        {
+        	System.out.print(a.charAt(i));
+        	
+        }
+       }
+	   
+22. Write a program to print each word in reverse order in a string?
+
+       public class WordreverseOrder 
+	   {
+	     public static void main(String[] args)
+	      {
+	         String str=" My name is Divya";
+			 String rev="";
+			 String[] arr=str.split(" ");
+			 System.out.println(str.length());
+			  for(int i=0; i<=arr.length-1; i++)
+	       {
+		       String a=arr[i];
+		         for(int j=a.length()-1; j>=0; j--)
+		       {
+			     rev=rev+a.charAt(j);
+		       }
+	       }
+	  
+	     System.out.println(rev);
+	    }
+      }
+
+23.Count Digits, Letters, Spaces 
+      public class CountTypes 
+	  {
+         public static void main(String[] args)
+		 {
+            String s = "Hello 123 World";
+            int letters = 0, digits = 0, spaces = 0;
+
+            for (int i = 0; i < s.length(); i++) 
+			{
+            char c = s.charAt(i);
+             if (Character.isDigit(c)) digits++;
+             else if (Character.isLetter(c)) letters++;
+             else if (Character.isWhitespace(c)) spaces++;
+         }
+
+        System.out.println("Letters: " + letters);
+        System.out.println("Digits: " + digits);
+        System.out.println("Spaces: " + spaces);
+        }
+       }
+	   
+24. Count Vowels & Consonants
+
+     public class CountVowelsConsonants 
+	 {
+       public static void main(String[] args) 
+	   {
+        String s = "Hello World";
+        int vowels = 0, consonants = 0;
+
+        for (int i = 0; i < s.length(); i++) 
+		{
+            char c = s.charAt(i);
+
+            if (c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z')
+			{
+                if ("aeiouAEIOU".indexOf(c) != -1)
+                    vowels++;
+                else
+                    consonants++;
+            }
+        }
+            System.out.println("Vowels: " + vowels);
+            System.out.println("Consonants: " + consonants);
+          }
+        }
+
+
+
+

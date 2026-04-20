@@ -49,3 +49,6 @@ class BasePage:
 
     def get_url(self):
         return self.driver.current_url
+
+    def open_url(self, url):
+        self.driver.get(url)

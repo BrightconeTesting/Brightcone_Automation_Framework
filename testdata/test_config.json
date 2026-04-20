@@ -1,0 +1,28 @@
+{
+    "environments": {
+        "Prod": {
+            "base_url": "https://app.brightcone.ai/login",
+            "timeout": 20,
+            "browser": "chrome"
+        },
+        "Staging": {
+            "base_url": "https://staging-app.brightcone.ai/login",
+            "timeout": 30,
+            "browser": "chrome"
+        }
+    },
+    "roles": {
+        "admin": {
+            "email": "harikrishnamunjala@yanthraa.com",
+            "otp_wait_time": 10
+        },
+        "user": {
+            "email": "munjalaharikrishna123@gmail.com",
+            "otp_wait_time": 15
+        },
+        "super_admin": {
+            "email": "superadmin@brightcone.ai",
+            "otp_wait_time": 5
+        }
+    }
+}

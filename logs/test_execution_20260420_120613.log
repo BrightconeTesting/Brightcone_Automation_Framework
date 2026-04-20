@@ -1,0 +1,18 @@
+2026-04-20 12:06:14,235 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-20 12:06:14,239 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-20 12:06:14,240 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-20 12:06:18,232 - Bright_Automation - INFO - Browser launched for Staging
+2026-04-20 12:06:18,241 - Bright_Automation - INFO - Scenario: Upload document and verify its status - STARTED
+2026-04-20 12:06:18,312 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Upload document and verify its status' and Role: 'user'
+2026-04-20 12:06:18,312 - Bright_Automation - INFO - Test data loaded for scenario: Upload document and verify its status
+2026-04-20 12:06:18,478 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-04-20 12:06:20,924 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-04-20 12:06:20,924 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-04-20 12:06:22,011 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-04-20 12:06:47,275 - Bright_Automation - INFO - Navigating to Documents page...
+2026-04-20 12:06:47,557 - Bright_Automation - INFO - Selecting category from Excel: 'Engineering'
+2026-04-20 12:06:49,863 - Bright_Automation - INFO - Selecting category from Excel: 'Admin'
+2026-04-20 12:06:51,055 - Bright_Automation - INFO - Selecting category from Excel: 'General'
+2026-04-20 12:06:52,295 - Bright_Automation - INFO - Uploading document from path: C:\Users\Dell\Downloads\Prasaanthi_ML_Resume.pdf
+2026-04-20 12:06:59,760 - Bright_Automation - INFO - Clicking the final Upload button...
+2026-04-20 12:07:05,593 - Bright_Automation - INFO - Test execution completed.

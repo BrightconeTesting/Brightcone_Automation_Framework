@@ -19,9 +19,10 @@ class DocumentsPage(BasePage):
     UPLOAD_BUTTON = (By.XPATH, "//button[contains(text(), 'Upload')]")
     
     # Category Locators
-    ADMIN_CAT = (By.XPATH, "//span[text()='Admin (1)']")
+    ADMIN_CAT = (By.XPATH, "(//span[contains(text(),'Admin')])[1]")
     ENGINEERING_CAT = (By.XPATH, "//span[text()='Engineering (0)']")
     SUPPORT_CAT = (By.XPATH, "//span[text()='Support (0)']")
+    GENERAL_CAT = (By.XPATH, "//span[contains(text(), 'General')]")
     
     # Navigation/Dashboard
     DASHBOARD_ICON = (By.XPATH, '//*[@id="root"]/div[1]/div/div[2]/aside/div[2]/nav/a[1]')
@@ -43,7 +44,8 @@ class DocumentsPage(BasePage):
         mapping = {
             "Admin": self.ADMIN_CAT,
             "Engineering": self.ENGINEERING_CAT,
-            "Support": self.SUPPORT_CAT
+            "Support": self.SUPPORT_CAT,
+            "General": self.GENERAL_CAT
         }
         
         if category_name in mapping:

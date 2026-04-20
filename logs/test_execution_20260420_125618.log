@@ -1,0 +1,17 @@
+2026-04-20 12:56:21,271 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-20 12:56:21,273 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-20 12:56:21,275 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-20 12:56:21,276 - Bright_Automation - INFO - Selected Browser for Run: CHROME
+2026-04-20 12:56:21,285 - Bright_Automation - INFO - Scenario: Add a resume for ML Engineer role - STARTED
+2026-04-20 12:56:21,285 - Bright_Automation - DEBUG - Launching chrome for scenario: Add a resume for ML Engineer role
+2026-04-20 12:56:21,285 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: chrome
+2026-04-20 12:56:21,285 - Bright_Automation - INFO - Setting up Chrome WebDriver...
+2026-04-20 12:56:26,543 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Add a resume for ML Engineer role' and Role: 'user'
+2026-04-20 12:56:26,545 - Bright_Automation - INFO - Test data loaded for scenario: Add a resume for ML Engineer role
+2026-04-20 12:56:26,555 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-04-20 12:56:29,159 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-04-20 12:56:29,159 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-04-20 12:56:30,599 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-04-20 12:56:50,594 - Bright_Automation - INFO - Quitting browser for scenario: Add a resume for ML Engineer role
+2026-04-20 12:56:52,696 - Bright_Automation - INFO - Test execution completed.
+2026-04-20 12:56:52,699 - Bright_Automation - INFO - Total Execution Time: 31.43s

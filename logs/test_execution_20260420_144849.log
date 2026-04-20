@@ -1,0 +1,23 @@
+2026-04-20 14:48:50,096 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-20 14:48:50,098 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-20 14:48:50,099 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-20 14:48:50,099 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX
+2026-04-20 14:48:50,104 - Bright_Automation - INFO - Scenario: Upload resume with unsupported file format - STARTED
+2026-04-20 14:48:50,104 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox
+2026-04-20 14:48:50,105 - Bright_Automation - INFO - Setting up Firefox WebDriver...
+2026-04-20 14:49:09,902 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-04-20 14:49:09,926 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Upload resume with unsupported file format' and Role: 'user'
+2026-04-20 14:49:09,927 - Bright_Automation - INFO - Test data loaded for scenario: Upload resume with unsupported file format
+2026-04-20 14:49:09,930 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-04-20 14:49:12,343 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-04-20 14:49:12,345 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-04-20 14:49:13,374 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-04-20 14:49:37,738 - Bright_Automation - INFO - Navigating to Recruitment module...
+2026-04-20 14:49:37,909 - Bright_Automation - INFO - Clicking Continue button for role: ML Engineer
+2026-04-20 14:49:40,851 - Bright_Automation - INFO - Navigating to Candidate upload section...
+2026-04-20 14:49:42,321 - Bright_Automation - INFO - Resolved test file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\files\String Methods Programs.txt
+2026-04-20 14:49:42,323 - Bright_Automation - INFO - Uploading recruitment document: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\files\String Methods Programs.txt
+2026-04-20 14:49:43,452 - Bright_Automation - INFO - Verifying error message. Expected: Some files were skipped. Only PDF and DOCX files are supported.
+2026-04-20 14:50:00,585 - Bright_Automation - INFO - Verified that the resume was NOT uploaded.
+2026-04-20 14:50:03,788 - Bright_Automation - INFO - Test execution completed.
+2026-04-20 14:50:03,788 - Bright_Automation - INFO - Total Execution Time: 73.69s

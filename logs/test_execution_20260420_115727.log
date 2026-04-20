@@ -1,0 +1,15 @@
+2026-04-20 11:57:29,152 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-20 11:57:29,156 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-20 11:57:29,156 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-20 11:57:32,359 - Bright_Automation - INFO - Browser launched for Staging
+2026-04-20 11:57:32,369 - Bright_Automation - INFO - Scenario: Upload document and verify its status - STARTED
+2026-04-20 11:57:32,416 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Upload document and verify its status' and Role: 'user'
+2026-04-20 11:57:32,420 - Bright_Automation - ERROR - No test data found for Scenario: 'Upload document and verify its status' with Role: 'user'
+2026-04-20 11:57:32,420 - Bright_Automation - WARNING - Could not load specific Excel data for scenario: No test data found for Scenario: 'Upload document and verify its status' with Role: 'user'
+2026-04-20 11:57:32,433 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-04-20 11:57:34,723 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-04-20 11:57:34,723 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-04-20 11:57:35,768 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-04-20 11:58:01,602 - Bright_Automation - INFO - Navigating to Documents page...
+2026-04-20 11:58:01,880 - Bright_Automation - WARNING - No category found for this scenario.
+2026-04-20 11:58:04,307 - Bright_Automation - INFO - Test execution completed.

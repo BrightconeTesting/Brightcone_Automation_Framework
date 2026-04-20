@@ -1,0 +1,16 @@
+2026-04-20 14:43:43,492 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-20 14:43:43,494 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-20 14:43:43,494 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-20 14:43:43,494 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX
+2026-04-20 14:43:43,509 - Bright_Automation - INFO - Scenario: Upload resume with unsupported file format - STARTED
+2026-04-20 14:43:43,510 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox
+2026-04-20 14:43:43,510 - Bright_Automation - INFO - Setting up Firefox WebDriver...
+2026-04-20 14:44:06,448 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-04-20 14:44:06,503 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Upload resume with unsupported file format' and Role: 'user'
+2026-04-20 14:44:06,504 - Bright_Automation - INFO - Test data loaded for scenario: Upload resume with unsupported file format
+2026-04-20 14:44:06,509 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-04-20 14:44:08,877 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-04-20 14:44:08,880 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-04-20 14:44:10,032 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-04-20 14:44:37,985 - Bright_Automation - INFO - Test execution completed.
+2026-04-20 14:44:37,985 - Bright_Automation - INFO - Total Execution Time: 54.49s
