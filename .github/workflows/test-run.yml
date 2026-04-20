@@ -1,0 +1,67 @@
+name: Bright Automation Test Run
+
+on:
+  workflow_dispatch:
+    inputs:
+      browser:
+        description: "Browser (chrome / edge / firefox)"
+        required: true
+        default: "chrome"
+
+      role:
+        description: "Role (user / admin / super_admin)"
+        required: true
+        default: "user"
+
+      env:
+        description: "Environment (qa / staging)"
+        required: true
+        default: "staging"
+
+      tags:
+        description: "Behave tag (ex: @Recruitment) - optional"
+        required: false
+        default: ""
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 🔹 Checkout Code
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # 🔹 Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # 🔹 Install Dependencies
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 🔹 Debug Inputs
+      - name: Print Inputs
+        run: |
+          echo "Browser: ${{ github.event.inputs.browser }}"
+          echo "Role: ${{ github.event.inputs.role }}"
+          echo "Environment: ${{ github.event.inputs.env }}"
+          echo "Tags: ${{ github.event.inputs.tags }}"
+
+      # 🔹 Execute Tests
+      - name: Execute Automation Tests
+        run: |
+          if [ -z "${{ github.event.inputs.tags }}" ]; then
+            behave -D browser=${{ github.event.inputs.browser }} \
+                   -D role=${{ github.event.inputs.role }} \
+                   -D env=${{ github.event.inputs.env }}
+          else
+            behave --tags=${{ github.event.inputs.tags }} \
+                   -D browser=${{ github.event.inputs.browser }} \
+                   -D role=${{ github.event.inputs.role }} \
+                   -D env=${{ github.event.inputs.env }}
+          fi
