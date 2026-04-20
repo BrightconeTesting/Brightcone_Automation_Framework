@@ -3,19 +3,13 @@ from base.base_page import BasePage
 import os
 import time
 
-try:
-    import pyautogui
-    import pyperclip
-except ImportError:
-    # We catch this later in the method to provide a clear error message
-    pass
 
 class DocumentsPage(BasePage):
     # Locators provided by user
     DOCUMENTS_MENU = (By.XPATH, "//span[text()='Documents']")
     FILE_UPLOAD_SECTION = (By.XPATH, "//h3[contains(text(), 'Choose a file')]")
-    # Hidden file input usually near the upload section
-    FILE_INPUT = (By.XPATH, "//input[@type='file']") 
+    # Replaced pyautogui-based locator with direct file input for Selenium send_keys
+    FILE_INPUT = (By.XPATH, "//div[contains(@class,'cursor-pointer')]//input[@type='file']") 
     UPLOAD_BUTTON = (By.XPATH, "//button[contains(text(), 'Upload')]")
     
     # Category Locators
@@ -55,28 +49,16 @@ class DocumentsPage(BasePage):
 
     def upload_document(self, file_path):
         """
-        Uses keyboard actions to handle the OS File Dialog.
+        Uploads a document using Selenium's send_keys method for better stability and headless support.
         """
-        print("DEBUG: Clicking on FILE_UPLOAD_SECTION to open OS dialog...")
-        self.click(self.FILE_UPLOAD_SECTION)
-        time.sleep(4) # Increased wait for OS dialog focus
+        print(f"DEBUG: Uploading document via standard Selenium send_keys: {file_path}")
+        abs_path = os.path.abspath(file_path)
         
-        try:
-            print(f"DEBUG: Copying path to clipboard and pasting: {file_path}")
-            abs_path = os.path.abspath(file_path)
-            pyperclip.copy(abs_path)
-            
-            # Simulate Paste and Enter
-            pyautogui.hotkey('ctrl', 'v')
-            time.sleep(1)
-            pyautogui.press('enter')
-            
-            # Wait for dialog to close
-            time.sleep(2)
-            print("[SUCCESS] OS-level File Upload handled via keyboard.")
-        except Exception as e:
-            print(f"[ERROR] OS File Dialog handling failed: {e}")
-            raise
+        # Locate the hidden file input and send the absolute path
+        file_input = self.wait_for_element(self.FILE_INPUT)
+        file_input.send_keys(abs_path)
+        
+        print(f"[SUCCESS] Document path sent successfully to {self.FILE_INPUT[1]}")
 
     def click_upload_button(self):
         """
