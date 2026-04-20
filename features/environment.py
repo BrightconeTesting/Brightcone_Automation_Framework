@@ -54,7 +54,12 @@ def before_all(context):
     
     # 4. Handle Browser from Command Line (-D browser=chrome / firefox / edge)
     context.browser_name = context.config.userdata.get("browser", "chrome")
-    logger.info(f"Selected Browser for Run: {context.browser_name.upper()}")
+    
+    # 5. Handle Headless Mode (-D headless=true/false) - Defaults to TRUE
+    headless_input = context.config.userdata.get("headless", "true").lower()
+    context.headless = headless_input == "true"
+    
+    logger.info(f"Selected Browser for Run: {context.browser_name.upper()} | Headless: {context.headless}")
     
     # 6. Initialize Utils
     context.gmail_util = GmailUtil(context.current_user["email"], "linx lpbq ljjj widk")
@@ -64,8 +69,9 @@ def before_scenario(context, scenario):
     logger.info(f"Scenario: {scenario.name} - STARTED")
     
     # 7. Initialize WebDriver for each scenario
-    factory = WebDriverFactory(browser_name=context.browser_name)
+    factory = WebDriverFactory(browser_name=context.browser_name, headless=context.headless)
     context.driver = factory.get_driver()
+
     context.driver.implicitly_wait(context.timeout)
 
     # 8. Initialize Page Objects

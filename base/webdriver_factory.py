@@ -12,9 +12,10 @@ class WebDriverFactory:
     Reusable Factory for Selenium WebDriver. 
     Supports Chrome, Firefox, and Edge with automatic driver management.
     """
-    def __init__(self, browser_name="chrome"):
+    def __init__(self, browser_name="chrome", headless=False):
         self.browser_name = browser_name.lower()
-        logger.debug(f"Initializing WebDriverFactory for: {self.browser_name}")
+        self.headless = headless
+        logger.debug(f"Initializing WebDriverFactory for: {self.browser_name} | Headless: {self.headless}")
 
     def get_driver(self):
         """
@@ -22,9 +23,17 @@ class WebDriverFactory:
         """
         try:
             if self.browser_name == "chrome":
-                logger.info("Setting up Chrome WebDriver...")
+                logger.info(f"Setting up Chrome WebDriver (Headless={self.headless})...")
                 options = webdriver.ChromeOptions()
                 options.add_argument("--start-maximized")
+                options.add_argument("--no-sandbox")
+                options.add_argument("--disable-dev-shm-usage")
+                options.add_argument("--disable-gpu")
+                options.add_argument("--window-size=1920,1080")
+                
+                if self.headless:
+                    options.add_argument("--headless=new")
+
                 try:
                     service = ChromeService(ChromeDriverManager().install())
                 except Exception as e:
@@ -33,27 +42,43 @@ class WebDriverFactory:
                 return webdriver.Chrome(service=service, options=options)
             
             elif self.browser_name == "firefox":
-                logger.info("Setting up Firefox WebDriver...")
+                logger.info(f"Setting up Firefox WebDriver (Headless={self.headless})...")
                 options = webdriver.FirefoxOptions()
+                # Adding arguments requested by user
+                options.add_argument("--no-sandbox")
+                options.add_argument("--disable-dev-shm-usage")
+                options.add_argument("--disable-gpu")
+                options.add_argument("--window-size=1920,1080")
+                
+                if self.headless:
+                    options.add_argument("-headless")
+
                 try:
                     service = FirefoxService(GeckoDriverManager().install())
                 except Exception as e:
                     logger.warning(f"WebDriver Manager failed for Firefox: {e}. Falling back to default.")
                     service = FirefoxService()
                 driver = webdriver.Firefox(service=service, options=options)
-                driver.maximize_window()
+                if not self.headless:
+                    driver.maximize_window()
                 return driver
             
             elif self.browser_name == "edge":
-                logger.info("Setting up Edge WebDriver...")
+                logger.info(f"Setting up Edge WebDriver (Headless={self.headless})...")
                 options = webdriver.EdgeOptions()
                 options.add_argument("--start-maximized")
+                options.add_argument("--no-sandbox")
+                options.add_argument("--disable-dev-shm-usage")
+                options.add_argument("--disable-gpu")
+                options.add_argument("--window-size=1920,1080")
+                
+                if self.headless:
+                    options.add_argument("--headless")
+
                 try:
-                    # Attempt WDM first
                     service = EdgeService(EdgeChromiumDriverManager().install())
                 except Exception as e:
                     logger.warning(f"WebDriver Manager failed for Edge: {e}. Falling back to Selenium Manager.")
-                    # Fallback allows Selenium 4's built-in manager to try and find/download the driver
                     service = EdgeService()
                 return webdriver.Edge(service=service, options=options)
             
