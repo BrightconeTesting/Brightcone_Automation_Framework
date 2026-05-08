@@ -56,13 +56,13 @@ def before_all(context):
     context.browser_name = context.config.userdata.get("browser", "chrome")
     
     # 5. Handle Headless Mode (-D headless=true/false) - Defaults to TRUE
-    headless_input = context.config.userdata.get("headless", "true").lower()
+    headless_input = context.config.userdata.get("headless", "false").lower()
     context.headless = headless_input == "true"
     
     logger.info(f"Selected Browser for Run: {context.browser_name.upper()} | Headless: {context.headless}")
     
     # 6. Initialize Utils
-    context.gmail_util = GmailUtil(context.current_user["email"], "linx lpbq ljjj widk")
+    context.gmail_util = GmailUtil(context.current_user["email"], context.current_user["app_password"])
 
 def before_scenario(context, scenario):
     EXECUTION_STATS["total"] += 1

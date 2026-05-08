@@ -1,0 +1,20 @@
+2026-05-08 11:10:57,655 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-08 11:10:57,657 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-08 11:10:57,657 - Bright_Automation - INFO - Current Execution Role: ADMIN
+2026-05-08 11:10:57,659 - Bright_Automation - INFO - Selected Browser for Run: CHROME | Headless: False
+2026-05-08 11:10:57,667 - Bright_Automation - INFO - Scenario: Add a resume for ML Engineer role - STARTED
+2026-05-08 11:10:57,668 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: chrome | Headless: False
+2026-05-08 11:10:57,668 - Bright_Automation - INFO - Setting up Chrome WebDriver (Headless=False)...
+2026-05-08 11:11:05,626 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-08 11:11:05,760 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Add a resume for ML Engineer role' and Role: 'admin'
+2026-05-08 11:11:05,761 - Bright_Automation - ERROR - No test data found for Scenario: 'Add a resume for ML Engineer role' with Role: 'admin'
+2026-05-08 11:11:05,762 - Bright_Automation - WARNING - Could not load specific Excel data for scenario: No test data found for Scenario: 'Add a resume for ML Engineer role' with Role: 'admin'
+2026-05-08 11:11:05,766 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role admin
+2026-05-08 11:11:08,056 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-05-08 11:11:08,059 - Bright_Automation - INFO - Logging in with email: harikrishnamunjala@yanthraa.com (Role: admin)
+2026-05-08 11:11:09,353 - Bright_Automation - INFO - Waiting 10s for OTP...
+2026-05-08 11:11:29,256 - Bright_Automation - INFO - Navigating to Recruitment module for role: admin
+2026-05-08 11:11:30,090 - Bright_Automation - INFO - Clicking Continue button for role: ML Engineer
+2026-05-08 11:11:33,683 - Bright_Automation - INFO - Navigating to Candidate upload section...
+2026-05-08 11:11:38,163 - Bright_Automation - INFO - Test execution completed.
+2026-05-08 11:11:38,166 - Bright_Automation - INFO - Total Execution Time: 40.51s

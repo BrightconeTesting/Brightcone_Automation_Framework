@@ -1,0 +1,23 @@
+2026-05-07 12:51:29,460 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-07 12:51:29,460 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-07 12:51:29,460 - Bright_Automation - INFO - Current Execution Role: ADMIN
+2026-05-07 12:51:29,460 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: False
+2026-05-07 12:51:29,474 - Bright_Automation - INFO - Scenario: Re-schedule interview slot and verify status - STARTED
+2026-05-07 12:51:29,475 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: False
+2026-05-07 12:51:29,476 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=False)...
+2026-05-07 12:51:50,570 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-07 12:51:50,615 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Re-schedule interview slot and verify status' and Role: 'admin'
+2026-05-07 12:51:50,616 - Bright_Automation - INFO - Test data loaded for scenario: Re-schedule interview slot and verify status
+2026-05-07 12:51:50,618 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role admin
+2026-05-07 12:51:52,576 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-05-07 12:51:52,576 - Bright_Automation - INFO - Logging in with email: harikrishnamunjala@yanthraa.com (Role: admin)
+2026-05-07 12:51:53,663 - Bright_Automation - INFO - Waiting 10s for OTP...
+2026-05-07 12:52:12,010 - Bright_Automation - INFO - Navigating to Recruitment module for role: admin
+2026-05-07 12:52:13,259 - Bright_Automation - INFO - Selecting role from dropdown: QA Engineer
+2026-05-07 12:52:15,632 - Bright_Automation - INFO - Navigating to Schedule section...
+2026-05-07 12:52:16,693 - Bright_Automation - INFO - Selecting Past schedule interviews...
+2026-05-07 12:52:17,568 - Bright_Automation - INFO - Opening Action menu and choosing Re-schedule...
+2026-05-07 12:52:19,464 - Bright_Automation - INFO - Entering Re-schedule details: May 8, 2026 08:00 AM to May 8, 2026 09:00 AM
+2026-05-07 12:52:21,544 - Bright_Automation - INFO - Verifying status update. Expected contains: Reschedule
+2026-05-07 12:52:54,643 - Bright_Automation - INFO - Test execution completed.
+2026-05-07 12:52:54,643 - Bright_Automation - INFO - Total Execution Time: 85.18s

@@ -1,40 +1,36 @@
 import openpyxl
 import os
 
-file_path = 'test_data/recruitment_data.xlsx'
-
-# Create dir if not exists
-os.makedirs('test_data', exist_ok=True)
-
-# Create a new workbook
-wb = openpyxl.Workbook()
-sheet = wb.active
-sheet.title = "Sheet1"
-
-# Headers
-headers = ['scenario', 'role', 'file_name', 'expected_result', 'category', 'job_role', 'resume_name']
-sheet.append(headers)
-
-# Data
-data = [
-    # Document scenarios
-    ('Upload document and verify its status', 'user', 'Prasaanthi_ML_Resume.pdf', '⚠️ Sensitive information detected. This has been flagged for review.', 'Engineering, Admin, General', '', ''),
-    ('Upload and verify admin document', 'user', 'Admin_Policy.pdf', 'uploaded document was uder review', 'Admin', '', ''),
+def update_candidate_to_available():
+    file_path = r'c:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx'
     
-    # Login scenario (just to keep it consistent)
-    ('Login using email and OTP', 'user', '', 'success', '', '', ''),
-    ('Login using email and OTP', 'admin', '', 'success', '', '', ''),
+    if not os.path.exists(file_path):
+        print(f"File not found: {file_path}")
+        return
+
+    wb = openpyxl.load_workbook(file_path)
+    sheet = wb.active
     
-    # Recruitment scenarios
-    ('Add a resume for ML Engineer role', 'user', 'Munjala_Anand_Tester_Resume (1).docx', 'success', '', 'ML Engineer', ''),
-    ('Upload resume with unsupported file format', 'user', 'Basic Java Concepts questions.txt', 'Some files were skipped. Only PDF and DOCX files are supported.', '', 'ML Engineer', ''),
-    ('Delete candidate from Recruitment module using dynamic resume name', 'user', '', 'success', '', 'ML Engineer', 'John'),
-    ('Validate Approve Shortlist button behavior and navigation to Interview Management', 'user', '', 'User', '', 'QA Engineer', '')
-]
+    headers = [cell.value for cell in sheet[1]]
+    
+    scenario_to_update = "send interview invitation"
+    candidate_name_new = "PINJARI SHAMEENA"
+    
+    scenario_col = headers.index("scenario") + 1
+    candidate_name_col = headers.index("candidate_name") + 1
+    
+    updated = False
+    for row in range(2, sheet.max_row + 1):
+        if sheet.cell(row=row, column=scenario_col).value == scenario_to_update:
+            sheet.cell(row=row, column=candidate_name_col).value = candidate_name_new
+            updated = True
+            print(f"Updated row {row} with candidate name '{candidate_name_new}'.")
+    
+    if not updated:
+        print("Scenario not found in Excel.")
+    else:
+        wb.save(file_path)
+        print("Excel updated successfully.")
 
-for row in data:
-    sheet.append(row)
-
-# Save the workbook
-wb.save(file_path)
-print(f"Successfully updated {file_path}")
+if __name__ == "__main__":
+    update_candidate_to_available()

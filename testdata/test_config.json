@@ -14,14 +14,17 @@
     "roles": {
         "admin": {
             "email": "harikrishnamunjala@yanthraa.com",
+            "app_password": "nrhz ajxg lywo zyud",
             "otp_wait_time": 10
         },
         "user": {
             "email": "munjalaharikrishna123@gmail.com",
+            "app_password": "linx lpbq ljjj widk",
             "otp_wait_time": 15
         },
         "super_admin": {
             "email": "superadmin@brightcone.ai",
+            "app_password": "",
             "otp_wait_time": 5
         }
     }

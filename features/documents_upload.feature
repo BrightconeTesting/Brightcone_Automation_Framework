@@ -1,4 +1,4 @@
-@uploaded
+@Documents
 Feature: Document Upload and Status Validation
 
   @upload
@@ -10,4 +10,4 @@ Feature: Document Upload and Status Validation
     And User uploads a document
     And User clicks the "Upload" button
     Then a popup with correctly matched text should appear
-
+  

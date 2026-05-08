@@ -44,6 +44,14 @@ class BasePage:
             logging.error(f"Element {locator} not visible within {timeout}s!")
             raise e
 
+    def wait_for_all_elements_visible(self, locator, timeout=15):
+        try:
+            wait = WebDriverWait(self.driver, timeout)
+            return wait.until(EC.visibility_of_all_elements_located(locator))
+        except TimeoutException as e:
+            logging.error(f"Elements {locator} not visible within {timeout}s!")
+            raise e
+
     def get_title(self):
         return self.driver.title
 

@@ -1,0 +1,18 @@
+2026-05-04 16:28:10,857 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-04 16:28:10,857 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-04 16:28:10,860 - Bright_Automation - INFO - Current Execution Role: ADMIN
+2026-05-04 16:28:10,861 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: True
+2026-05-04 16:28:10,873 - Bright_Automation - INFO - Scenario: Add interview slot manually and verify date and time - STARTED
+2026-05-04 16:28:10,874 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: True
+2026-05-04 16:28:10,874 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=True)...
+2026-05-04 16:28:32,380 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-04 16:28:32,396 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Add interview slot manually and verify date and time' and Role: 'admin'
+2026-05-04 16:28:32,397 - Bright_Automation - ERROR - No test data found for Scenario: 'Add interview slot manually and verify date and time' with Role: 'admin'
+2026-05-04 16:28:32,397 - Bright_Automation - WARNING - Could not load specific Excel data for scenario: No test data found for Scenario: 'Add interview slot manually and verify date and time' with Role: 'admin'
+2026-05-04 16:28:32,400 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role admin
+2026-05-04 16:28:34,351 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-05-04 16:28:34,351 - Bright_Automation - INFO - Logging in with email: harikrishnamunjala@yanthraa.com (Role: admin)
+2026-05-04 16:28:34,935 - Bright_Automation - INFO - Waiting 10s for OTP...
+2026-05-04 16:28:55,219 - Bright_Automation - INFO - Navigating to Recruitment module for role: admin
+2026-05-04 16:29:28,154 - Bright_Automation - INFO - Test execution completed.
+2026-05-04 16:29:28,154 - Bright_Automation - INFO - Total Execution Time: 77.30s

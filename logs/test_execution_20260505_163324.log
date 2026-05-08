@@ -1,0 +1,23 @@
+2026-05-05 16:33:25,717 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-05 16:33:25,719 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-05 16:33:25,720 - Bright_Automation - INFO - Current Execution Role: ADMIN
+2026-05-05 16:33:25,720 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: False
+2026-05-05 16:33:25,731 - Bright_Automation - INFO - Scenario: Sync interview slot from calendar and verify date and time - STARTED
+2026-05-05 16:33:25,731 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: False
+2026-05-05 16:33:25,731 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=False)...
+2026-05-05 16:33:52,324 - Bright_Automation - ERROR - Global driver initialization failed: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:782:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:581:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:169:4
+GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.sys.mjs:3127:15
+dispatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2026-05-05 16:33:52,333 - Bright_Automation - INFO - Test execution completed.
+2026-05-05 16:33:52,333 - Bright_Automation - INFO - Total Execution Time: 26.62s

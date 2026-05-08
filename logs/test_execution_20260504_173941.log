@@ -1,0 +1,18 @@
+2026-05-04 17:39:41,820 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-04 17:39:41,823 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-04 17:39:41,823 - Bright_Automation - INFO - Current Execution Role: ADMIN
+2026-05-04 17:39:41,823 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: True
+2026-05-04 17:39:41,837 - Bright_Automation - INFO - Scenario: Add interview slot manually and verify date and time - STARTED
+2026-05-04 17:39:41,837 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: True
+2026-05-04 17:39:41,837 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=True)...
+2026-05-04 17:40:02,157 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-04 17:40:02,180 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Add interview slot manually and verify date and time' and Role: 'admin'
+2026-05-04 17:40:02,181 - Bright_Automation - INFO - Test data loaded for scenario: Add interview slot manually and verify date and time
+2026-05-04 17:40:02,199 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role admin
+2026-05-04 17:40:04,575 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-05-04 17:40:04,575 - Bright_Automation - INFO - Logging in with email: harikrishnamunjala@yanthraa.com (Role: admin)
+2026-05-04 17:40:05,505 - Bright_Automation - INFO - Waiting 10s for OTP...
+2026-05-04 17:40:23,615 - Bright_Automation - INFO - Navigating to Recruitment module for role: admin
+2026-05-04 17:40:24,794 - Bright_Automation - INFO - Selecting role from dropdown: QA Engineer
+2026-05-04 17:41:27,859 - Bright_Automation - INFO - Test execution completed.
+2026-05-04 17:41:27,859 - Bright_Automation - INFO - Total Execution Time: 106.04s

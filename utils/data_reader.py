@@ -52,7 +52,7 @@ class DataReader:
         filtered_data = [
             row for row in all_data 
             if str(row.get('scenario')).strip() == scenario_name.strip() and 
-               str(row.get('role')).strip() == role_name.strip()
+               str(row.get('role')).strip().lower() == role_name.strip().lower()
         ]
         
         if not filtered_data:

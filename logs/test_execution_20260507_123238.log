@@ -1,0 +1,17 @@
+2026-05-07 12:32:39,038 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-07 12:32:39,038 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-07 12:32:39,038 - Bright_Automation - INFO - Current Execution Role: ADMIN
+2026-05-07 12:32:39,041 - Bright_Automation - INFO - Selected Browser for Run: CHROME | Headless: False
+2026-05-07 12:32:39,080 - Bright_Automation - INFO - Scenario: Re-schedule interview slot and verify status - STARTED
+2026-05-07 12:32:39,080 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: chrome | Headless: False
+2026-05-07 12:32:39,081 - Bright_Automation - INFO - Setting up Chrome WebDriver (Headless=False)...
+2026-05-07 12:32:45,016 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-07 12:32:45,072 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Re-schedule interview slot and verify status' and Role: 'admin'
+2026-05-07 12:32:45,074 - Bright_Automation - INFO - Test data loaded for scenario: Re-schedule interview slot and verify status
+2026-05-07 12:32:45,079 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role admin
+2026-05-07 12:32:47,070 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-05-07 12:32:47,070 - Bright_Automation - INFO - Logging in with email: harikrishnamunjala@yanthraa.com (Role: admin)
+2026-05-07 12:32:48,124 - Bright_Automation - INFO - Waiting 10s for OTP...
+2026-05-07 12:33:08,220 - Bright_Automation - INFO - Navigating to Recruitment module for role: admin
+2026-05-07 12:33:12,842 - Bright_Automation - INFO - Test execution completed.
+2026-05-07 12:33:12,845 - Bright_Automation - INFO - Total Execution Time: 33.81s

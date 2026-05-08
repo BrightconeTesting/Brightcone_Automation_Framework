@@ -1,0 +1,22 @@
+2026-05-07 15:51:29,476 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-07 15:51:29,476 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-07 15:51:29,476 - Bright_Automation - INFO - Current Execution Role: ADMIN
+2026-05-07 15:51:29,476 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: False
+2026-05-07 15:51:29,488 - Bright_Automation - INFO - Scenario: Submit feedback and verify - STARTED
+2026-05-07 15:51:29,488 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: False
+2026-05-07 15:51:29,488 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=False)...
+2026-05-07 15:51:54,030 - Bright_Automation - WARNING - WebDriver Manager failed for Firefox: Could not reach host. Are you offline?. Falling back to default.
+2026-05-07 15:52:03,745 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-07 15:52:03,845 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Submit feedback and verify' and Role: 'admin'
+2026-05-07 15:52:03,848 - Bright_Automation - INFO - Test data loaded for scenario: Submit feedback and verify
+2026-05-07 15:52:03,852 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role admin
+2026-05-07 15:52:06,508 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-05-07 15:52:06,508 - Bright_Automation - INFO - Logging in with email: harikrishnamunjala@yanthraa.com (Role: admin)
+2026-05-07 15:52:07,601 - Bright_Automation - INFO - Waiting 10s for OTP...
+2026-05-07 15:52:25,817 - Bright_Automation - INFO - Navigating to Recruitment module for role: admin
+2026-05-07 15:52:26,992 - Bright_Automation - INFO - Selecting role from dropdown: QA Engineer
+2026-05-07 15:52:29,108 - Bright_Automation - INFO - Selecting Feedback section...
+2026-05-07 15:52:32,410 - Bright_Automation - INFO - Selecting Submitted option...
+2026-05-07 15:52:32,604 - Bright_Automation - INFO - Clicking Review button...
+2026-05-07 15:53:06,084 - Bright_Automation - INFO - Test execution completed.
+2026-05-07 15:53:06,084 - Bright_Automation - INFO - Total Execution Time: 96.61s
