@@ -1,0 +1,61 @@
+2026-04-08 11:14:14,293 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-08 11:14:14,293 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-08 11:14:18,497 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-08 11:14:18,557 - Bright_Automation - INFO - --- START FEATURE: Document Upload and Status Validation ---
+2026-04-08 11:14:18,580 - Bright_Automation - INFO - Scenario: Upload document and verify its status dynamically - Status: STARTED
+2026-04-08 11:14:18,593 - Bright_Automation - INFO -   Step: GIVEN User launches the application
+2026-04-08 11:14:22,155 - Bright_Automation - INFO -   Step: User launches the application - Status: PASSED
+2026-04-08 11:14:22,161 - Bright_Automation - INFO -   Step: GIVEN User logs in with valid credentials
+2026-04-08 11:14:47,137 - Bright_Automation - INFO -   Step: User logs in with valid credentials - Status: PASSED
+2026-04-08 11:14:47,139 - Bright_Automation - INFO -   Step: WHEN User navigates to Documents page
+2026-04-08 11:14:47,368 - Bright_Automation - INFO -   Step: User navigates to Documents page - Status: PASSED
+2026-04-08 11:14:47,370 - Bright_Automation - INFO -   Step: WHEN User uploads a document
+2026-04-08 11:14:56,838 - Bright_Automation - INFO -   Step: User uploads a document - Status: PASSED
+2026-04-08 11:14:56,842 - Bright_Automation - INFO -   Step: WHEN User selects the "Admin" category
+2026-04-08 11:14:57,037 - Bright_Automation - INFO -   Step: User selects the "Admin" category - Status: PASSED
+2026-04-08 11:14:57,037 - Bright_Automation - INFO -   Step: WHEN User selects the "Engineering" category
+2026-04-08 11:14:57,315 - Bright_Automation - INFO -   Step: User selects the "Engineering" category - Status: PASSED
+2026-04-08 11:14:57,317 - Bright_Automation - INFO -   Step: WHEN User selects the "Support" category
+2026-04-08 11:14:57,752 - Bright_Automation - INFO -   Step: User selects the "Support" category - Status: PASSED
+2026-04-08 11:14:57,754 - Bright_Automation - INFO -   Step: WHEN User clicks the "Upload" button
+2026-04-08 11:14:59,877 - Bright_Automation - INFO -   Step: User clicks the "Upload" button - Status: PASSED
+2026-04-08 11:14:59,880 - Bright_Automation - INFO -   Step: THEN Uploaded document should be visible in My Uploads
+2026-04-08 11:15:00,267 - Bright_Automation - INFO -   Step: Uploaded document should be visible in My Uploads - Status: PASSED
+2026-04-08 11:15:00,267 - Bright_Automation - INFO -   Step: THEN User should capture the document name
+2026-04-08 11:15:00,271 - Bright_Automation - INFO -   Step: User should capture the document name - Status: PASSED
+2026-04-08 11:15:00,272 - Bright_Automation - INFO -   Step: THEN User should fetch all statuses of the uploaded document
+2026-04-08 11:15:00,946 - Bright_Automation - INFO -   Step: User should fetch all statuses of the uploaded document - Status: PASSED
+2026-04-08 11:15:00,946 - Bright_Automation - INFO -   Step: THEN Document status should contain "review" or "quarantined"
+2026-04-08 11:15:00,946 - Bright_Automation - ERROR -   Step: Document status should contain "review" or "quarantined" - Status: FAILED
+2026-04-08 11:15:00,946 - Bright_Automation - ERROR -   Error Traceback:
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python311\Lib\site-packages\behave\model.py", line 1991, in run
+    match.run(runner.context)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python311\Lib\site-packages\behave\matchers.py", line 105, in run
+    self.func(context, *args, **kwargs)
+  File "features\steps\documents_steps.py", line 109, in validate_dynamic_status
+    assert match_found is True, f"None of the statuses {context.found_statuses} contained '{status1}' or '{status2}'"
+           ^^^^^^^^^^^^^^^^^^^
+AssertionError: None of the statuses ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''] contained 'review' or 'quarantined'
+
+2026-04-08 11:15:01,162 - Bright_Automation - INFO -   Screenshot saved at: screenshots\FAILED_Document_status_should_contain_"review"_or_"quaran_20260408_111500.png
+2026-04-08 11:15:01,382 - Bright_Automation - INFO -   Screenshot attached to Allure report.
+2026-04-08 11:15:01,383 - Bright_Automation - ERROR - Scenario: Upload document and verify its status dynamically - Status: FAILED
+
+2026-04-08 11:15:01,387 - Bright_Automation - INFO - --- END FEATURE: Document Upload and Status Validation ---
+2026-04-08 11:15:01,393 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 11:15:01,395 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-04-08 11:15:01,395 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 11:15:01,397 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-04-08 11:15:01,397 - Bright_Automation - INFO -   Scenarios Passed    : 0
+2026-04-08 11:15:01,397 - Bright_Automation - INFO -   Scenarios Failed    : 1
+2026-04-08 11:15:01,397 - Bright_Automation - INFO -   Scenarios Skipped   : 0
+2026-04-08 11:15:01,397 - Bright_Automation - INFO -   Total Run Time      : 47.1s
+2026-04-08 11:15:01,397 - Bright_Automation - INFO -   Overall Status      : FAIL
+2026-04-08 11:15:01,397 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 11:15:01,397 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-04-08 11:15:14,864 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-04-08 11:15:14,879 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-04-08 11:15:19,817 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-08 11:15:19,829 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-08 11:15:19,829 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

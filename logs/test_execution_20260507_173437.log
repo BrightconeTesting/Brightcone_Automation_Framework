@@ -1,0 +1,55 @@
+2026-05-07 17:34:37,983 - Bright_Automation - INFO - Initializing global test configuration...
+2026-05-07 17:34:37,984 - Bright_Automation - INFO - Launching Chrome browser...
+2026-05-07 17:34:41,013 - Bright_Automation - INFO - Session strategy: PROFILE persistence enabled.
+2026-05-07 17:34:41,018 - Bright_Automation - INFO - Manual serialized restore enabled: False
+2026-05-07 17:34:41,020 - Bright_Automation - INFO - Browser launched successfully.
+2026-05-07 17:34:41,026 - Bright_Automation - INFO - Attempting to reuse profile-based authenticated session...
+2026-05-07 17:34:41,030 - Bright_Automation - INFO - Validating session at https://app.brightcone.ai/dashboard...
+2026-05-07 17:34:43,158 - Bright_Automation - INFO - Current URL: https://app.brightcone.ai/dashboard
+2026-05-07 17:35:02,701 - Bright_Automation - INFO - Authenticated dashboard element detected.
+2026-05-07 17:35:02,703 - Bright_Automation - INFO - Session validated via authenticated dashboard element.
+2026-05-07 17:35:02,703 - Bright_Automation - INFO - Profile session reused successfully.
+2026-05-07 17:35:02,704 - Bright_Automation - INFO - Reusing existing valid session. Ensuring dashboard navigation...
+2026-05-07 17:35:05,929 - Bright_Automation - INFO - Authenticated dashboard element detected.
+2026-05-07 17:35:05,937 - Bright_Automation - INFO - --- START FEATURE: Resume Management in Recruitment Module ---
+2026-05-07 17:35:05,939 - Bright_Automation - INFO - Scenario: Add a resume for ML Engineer role - Status: STARTED
+2026-05-07 17:35:05,955 - Bright_Automation - INFO - Resetting navigation to dashboard for clean scenario state...
+2026-05-07 17:35:07,053 - Bright_Automation - INFO -   Step: GIVEN I am logged into the application
+2026-05-07 17:35:07,061 - Bright_Automation - INFO -   Step: I am logged into the application - Status: PASSED
+2026-05-07 17:35:07,063 - Bright_Automation - INFO -   Step: THEN I should be on the "Dashboard" page
+2026-05-07 17:35:07,071 - Bright_Automation - INFO -   Step: I should be on the "Dashboard" page - Status: PASSED
+2026-05-07 17:35:07,072 - Bright_Automation - INFO -   Step: WHEN I navigate to Recruitment module
+2026-05-07 17:35:12,763 - Bright_Automation - INFO -   Step: I navigate to Recruitment module - Status: PASSED
+2026-05-07 17:35:12,766 - Bright_Automation - INFO -   Step: THEN I should be on the "Recruitment" page
+2026-05-07 17:35:12,804 - Bright_Automation - INFO -   Step: I should be on the "Recruitment" page - Status: PASSED
+2026-05-07 17:35:12,818 - Bright_Automation - INFO -   Step: WHEN I click on continue button of ML engineer role
+2026-05-07 17:35:12,961 - Bright_Automation - INFO -   Step: I click on continue button of ML engineer role - Status: PASSED
+2026-05-07 17:35:12,964 - Bright_Automation - INFO -   Step: THEN I should be on the "Overview" page
+2026-05-07 17:35:13,089 - Bright_Automation - INFO -   Step: I should be on the "Overview" page - Status: PASSED
+2026-05-07 17:35:13,096 - Bright_Automation - INFO -   Step: WHEN I click on "Add Candidate" or "Upload Resume"
+2026-05-07 17:35:14,539 - Bright_Automation - INFO -   Step: I click on "Add Candidate" or "Upload Resume" - Status: PASSED
+2026-05-07 17:35:14,541 - Bright_Automation - INFO -   Step: WHEN I upload a valid resume file
+2026-05-07 17:35:15,170 - Bright_Automation - INFO -   Step: I upload a valid resume file - Status: PASSED
+2026-05-07 17:35:15,172 - Bright_Automation - INFO -   Step: THEN the resume should be uploaded successfully
+2026-05-07 17:35:18,174 - Bright_Automation - INFO -   Step: the resume should be uploaded successfully - Status: PASSED
+2026-05-07 17:35:18,174 - Bright_Automation - INFO -   Step: THEN the candidate should be listed under the ML Engineer role
+2026-05-07 17:35:19,744 - Bright_Automation - INFO -   Step: the candidate should be listed under the ML Engineer role - Status: PASSED
+2026-05-07 17:35:19,746 - Bright_Automation - INFO - Scenario: Add a resume for ML Engineer role - Status: PASSED
+
+2026-05-07 17:35:19,749 - Bright_Automation - INFO - --- END FEATURE: Resume Management in Recruitment Module ---
+2026-05-07 17:35:19,749 - Bright_Automation - INFO - --------------------------------------------------
+2026-05-07 17:35:19,749 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-05-07 17:35:19,749 - Bright_Automation - INFO - --------------------------------------------------
+2026-05-07 17:35:19,749 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-05-07 17:35:19,749 - Bright_Automation - INFO -   Scenarios Passed    : 1
+2026-05-07 17:35:19,749 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-05-07 17:35:19,749 - Bright_Automation - INFO -   Scenarios Skipped   : 0
+2026-05-07 17:35:19,749 - Bright_Automation - INFO -   Total Run Time      : 41.77s
+2026-05-07 17:35:19,753 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-05-07 17:35:19,753 - Bright_Automation - INFO - --------------------------------------------------
+2026-05-07 17:35:19,753 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-05-07 17:35:33,336 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-05-07 17:35:33,413 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-05-07 17:35:36,888 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-05-07 17:35:36,891 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-05-07 17:35:36,891 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

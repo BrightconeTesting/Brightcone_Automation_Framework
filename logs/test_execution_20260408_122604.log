@@ -1,0 +1,40 @@
+2026-04-08 12:26:04,822 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-08 12:26:04,824 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-08 12:26:08,448 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-08 12:26:08,479 - Bright_Automation - INFO - --- START FEATURE: Document Upload and Status Validation ---
+2026-04-08 12:26:08,487 - Bright_Automation - INFO - Scenario: Upload document and verify its status dynamically - Status: STARTED
+2026-04-08 12:26:08,496 - Bright_Automation - INFO -   Step: GIVEN User launches the application
+2026-04-08 12:26:12,000 - Bright_Automation - INFO -   Step: User launches the application - Status: PASSED
+2026-04-08 12:26:12,007 - Bright_Automation - INFO -   Step: GIVEN User logs in with valid credentials
+2026-04-08 12:26:36,499 - Bright_Automation - INFO -   Step: User logs in with valid credentials - Status: PASSED
+2026-04-08 12:26:36,515 - Bright_Automation - INFO -   Step: WHEN User navigates to Documents page
+2026-04-08 12:26:37,239 - Bright_Automation - INFO -   Step: User navigates to Documents page - Status: PASSED
+2026-04-08 12:26:37,244 - Bright_Automation - INFO -   Step: WHEN User uploads a document
+2026-04-08 12:26:46,777 - Bright_Automation - INFO -   Step: User uploads a document - Status: PASSED
+2026-04-08 12:26:46,801 - Bright_Automation - INFO -   Step: WHEN User selects the "Admin", "Engineering" and "Support" categories
+2026-04-08 12:26:50,557 - Bright_Automation - INFO -   Step: User selects the "Admin", "Engineering" and "Support" categories - Status: PASSED
+2026-04-08 12:26:50,557 - Bright_Automation - INFO -   Step: WHEN User clicks the "Upload" button
+2026-04-08 12:26:52,720 - Bright_Automation - INFO -   Step: User clicks the "Upload" button - Status: PASSED
+2026-04-08 12:26:52,722 - Bright_Automation - INFO -   Step: THEN Uploaded document should be visible in My Uploads
+2026-04-08 12:26:53,023 - Bright_Automation - INFO -   Step: Uploaded document should be visible in My Uploads - Status: PASSED
+2026-04-08 12:26:53,023 - Bright_Automation - INFO -   Step: THEN User should capture the document name
+2026-04-08 12:26:53,027 - Bright_Automation - INFO -   Step: User should capture the document name - Status: PASSED
+2026-04-08 12:26:53,027 - Bright_Automation - INFO - Scenario: Upload document and verify its status dynamically - Status: PASSED
+
+2026-04-08 12:26:53,035 - Bright_Automation - INFO - --- END FEATURE: Document Upload and Status Validation ---
+2026-04-08 12:26:53,054 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 12:26:53,056 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-04-08 12:26:53,058 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 12:26:53,058 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-04-08 12:26:53,060 - Bright_Automation - INFO -   Scenarios Passed    : 1
+2026-04-08 12:26:53,065 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-04-08 12:26:53,071 - Bright_Automation - INFO -   Scenarios Skipped   : 0
+2026-04-08 12:26:53,073 - Bright_Automation - INFO -   Total Run Time      : 48.23s
+2026-04-08 12:26:53,074 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-04-08 12:26:53,078 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 12:26:53,084 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-04-08 12:27:06,653 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-04-08 12:27:06,674 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-04-08 12:27:11,397 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-08 12:27:11,401 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-08 12:27:11,402 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

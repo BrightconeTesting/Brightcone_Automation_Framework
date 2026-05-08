@@ -1,0 +1,44 @@
+2026-04-09 14:12:23,582 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-09 14:12:23,582 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-09 14:12:30,227 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-09 14:12:30,275 - Bright_Automation - INFO - Navigating to application for session check...
+2026-04-09 14:12:33,766 - Bright_Automation - INFO - Session data loaded into browser.
+2026-04-09 14:12:33,766 - Bright_Automation - INFO - Session files found. Validating logged-in state...
+2026-04-09 14:12:34,130 - Bright_Automation - INFO - Validating session at https://app.brightcone.ai/dashboard...
+2026-04-09 14:12:39,506 - Bright_Automation - INFO - Current URL: https://app.brightcone.ai/login
+2026-04-09 14:12:39,507 - Bright_Automation - WARNING - Session invalid: Redirected to login.
+2026-04-09 14:12:39,507 - Bright_Automation - INFO - Session is missing or invalid. Triggering full login flow...
+2026-04-09 14:12:40,915 - Bright_Automation - INFO - Waiting for OTP...
+2026-04-09 14:12:58,982 - Bright_Automation - INFO - Waiting for login to complete (URL change)...
+2026-04-09 14:13:05,554 - Bright_Automation - INFO - Validating session at https://app.brightcone.ai/dashboard...
+2026-04-09 14:13:10,950 - Bright_Automation - INFO - Current URL: https://app.brightcone.ai/dashboard
+2026-04-09 14:13:10,950 - Bright_Automation - INFO - Session validated via URL.
+2026-04-09 14:13:10,950 - Bright_Automation - INFO - Login successful. Saving new session data...
+2026-04-09 14:13:10,985 - Bright_Automation - INFO - Session data (cookies, localStorage, sessionStorage) saved successfully.
+2026-04-09 14:13:11,050 - Bright_Automation - INFO - --- START FEATURE: Resume Management in Recruitment Module ---
+2026-04-09 14:13:11,054 - Bright_Automation - INFO - Scenario: Add a resume for ML Engineer role - Status: STARTED
+2026-04-09 14:13:11,066 - Bright_Automation - INFO - Resetting navigation to dashboard for clean scenario state...
+2026-04-09 14:13:11,402 - Bright_Automation - INFO -   Step: GIVEN I am logged into the application
+2026-04-09 14:13:11,456 - Bright_Automation - INFO -   Step: I am logged into the application - Status: PASSED
+2026-04-09 14:13:11,458 - Bright_Automation - INFO -   Step: THEN I should be on the "Dashboard" page
+2026-04-09 14:13:11,466 - Bright_Automation - INFO -   Step: I should be on the "Dashboard" page - Status: PASSED
+2026-04-09 14:13:11,467 - Bright_Automation - INFO -   Step: WHEN I navigate to Recruitment module
+2026-04-09 14:13:28,889 - Bright_Automation - WARNING - Scenario: Add a resume for ML Engineer role - Status: SKIPPED
+
+2026-04-09 14:13:28,894 - Bright_Automation - INFO - --- END FEATURE: Resume Management in Recruitment Module ---
+2026-04-09 14:13:28,897 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-09 14:13:28,897 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-04-09 14:13:28,898 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-09 14:13:28,898 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-04-09 14:13:28,898 - Bright_Automation - INFO -   Scenarios Passed    : 0
+2026-04-09 14:13:28,898 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-04-09 14:13:28,898 - Bright_Automation - INFO -   Scenarios Skipped   : 1
+2026-04-09 14:13:28,898 - Bright_Automation - INFO -   Total Run Time      : 65.31s
+2026-04-09 14:13:28,900 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-04-09 14:13:28,900 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-09 14:13:28,900 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-04-09 14:13:42,247 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-04-09 14:13:42,309 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-04-09 14:13:47,131 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-09 14:13:47,140 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-09 14:13:47,143 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

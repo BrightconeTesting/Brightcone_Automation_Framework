@@ -1,0 +1,27 @@
+2026-04-08 12:44:14,577 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-08 12:44:14,577 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-08 12:44:17,858 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-08 12:44:17,868 - Bright_Automation - INFO - --- START FEATURE: Document Upload and Status Validation ---
+2026-04-08 12:44:17,872 - Bright_Automation - INFO - Scenario: Upload document and verify its status dynamically - Status: STARTED
+2026-04-08 12:44:17,880 - Bright_Automation - INFO -   Step: GIVEN User launches the application
+2026-04-08 12:44:21,165 - Bright_Automation - INFO -   Step: User launches the application - Status: PASSED
+2026-04-08 12:44:21,166 - Bright_Automation - INFO -   Step: GIVEN User logs in with valid credentials
+2026-04-08 12:44:54,812 - Bright_Automation - WARNING - Scenario: Upload document and verify its status dynamically - Status: SKIPPED
+
+2026-04-08 12:44:54,820 - Bright_Automation - INFO - --- END FEATURE: Document Upload and Status Validation ---
+2026-04-08 12:44:54,827 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 12:44:54,829 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-04-08 12:44:54,829 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 12:44:54,829 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-04-08 12:44:54,829 - Bright_Automation - INFO -   Scenarios Passed    : 0
+2026-04-08 12:44:54,829 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-04-08 12:44:54,830 - Bright_Automation - INFO -   Scenarios Skipped   : 1
+2026-04-08 12:44:54,830 - Bright_Automation - INFO -   Total Run Time      : 40.25s
+2026-04-08 12:44:54,830 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-04-08 12:44:54,830 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 12:44:54,832 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-04-08 12:45:08,366 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-04-08 12:45:08,395 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-04-08 12:45:17,891 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-08 12:45:17,900 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-08 12:45:17,900 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

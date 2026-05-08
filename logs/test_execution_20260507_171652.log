@@ -1,0 +1,109 @@
+2026-05-07 17:16:52,863 - Bright_Automation - INFO - Initializing global test configuration...
+2026-05-07 17:16:52,863 - Bright_Automation - INFO - Launching Chrome browser...
+2026-05-07 17:16:56,002 - Bright_Automation - INFO - Session strategy: PROFILE persistence enabled.
+2026-05-07 17:16:56,003 - Bright_Automation - INFO - Manual serialized restore enabled: False
+2026-05-07 17:16:56,003 - Bright_Automation - INFO - Browser launched successfully.
+2026-05-07 17:16:56,007 - Bright_Automation - INFO - Attempting to reuse profile-based authenticated session...
+2026-05-07 17:16:56,016 - Bright_Automation - INFO - Validating session at https://app.brightcone.ai/dashboard...
+2026-05-07 17:16:57,634 - Bright_Automation - INFO - Current URL: https://app.brightcone.ai/dashboard
+2026-05-07 17:17:17,772 - Bright_Automation - WARNING - Dashboard authentication element not found within 20s: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xdcb373+10553]
+	chromedriver!GetHandleVerifier [0xdcb4a4+10684]
+	chromedriver!(No symbol) [0xbd1e10]
+	chromedriver!(No symbol) [0xc1a9da]
+	chromedriver!(No symbol) [0xc1ac7b]
+	chromedriver!(No symbol) [0xc5d162]
+	chromedriver!(No symbol) [0xc3d8b4]
+	chromedriver!(No symbol) [0xc5aa36]
+	chromedriver!(No symbol) [0xc3d606]
+	chromedriver!(No symbol) [0xc10039]
+	chromedriver!(No symbol) [0xc10df4]
+	chromedriver!GetHandleVerifier [0x104ddb4+292f94]
+	chromedriver!GetHandleVerifier [0x104937d+28e55d]
+	chromedriver!GetHandleVerifier [0x1068215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xde4c18+29df8]
+	chromedriver!GetHandleVerifier [0xdec6fd+318dd]
+	chromedriver!GetHandleVerifier [0xdd3c78+18e58]
+	chromedriver!GetHandleVerifier [0xdd3e42+19022]
+	chromedriver!GetHandleVerifier [0xdbd45f+263f]
+	KERNEL32!BaseThreadInitThunk [0x76605d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7744d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7744d7c1+231]
+
+2026-05-07 17:17:17,772 - Bright_Automation - WARNING - Session invalid: dashboard authenticated element was not found.
+2026-05-07 17:17:17,773 - Bright_Automation - WARNING - Profile session not valid.
+2026-05-07 17:17:17,773 - Bright_Automation - INFO - Session is missing or invalid. Triggering full login flow...
+2026-05-07 17:17:19,527 - Bright_Automation - INFO - Waiting for OTP...
+2026-05-07 17:17:33,462 - Bright_Automation - INFO - Waiting for login to complete (URL change)...
+2026-05-07 17:18:00,172 - Bright_Automation - WARNING - Dashboard authentication element not found within 25s: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xdcb373+10553]
+	chromedriver!GetHandleVerifier [0xdcb4a4+10684]
+	chromedriver!(No symbol) [0xbd1e10]
+	chromedriver!(No symbol) [0xc1a9da]
+	chromedriver!(No symbol) [0xc1ac7b]
+	chromedriver!(No symbol) [0xc5d162]
+	chromedriver!(No symbol) [0xc3d8b4]
+	chromedriver!(No symbol) [0xc5aa36]
+	chromedriver!(No symbol) [0xc3d606]
+	chromedriver!(No symbol) [0xc10039]
+	chromedriver!(No symbol) [0xc10df4]
+	chromedriver!GetHandleVerifier [0x104ddb4+292f94]
+	chromedriver!GetHandleVerifier [0x104937d+28e55d]
+	chromedriver!GetHandleVerifier [0x1068215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xde4c18+29df8]
+	chromedriver!GetHandleVerifier [0xdec6fd+318dd]
+	chromedriver!GetHandleVerifier [0xdd3c78+18e58]
+	chromedriver!GetHandleVerifier [0xdd3e42+19022]
+	chromedriver!GetHandleVerifier [0xdbd45f+263f]
+	KERNEL32!BaseThreadInitThunk [0x76605d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7744d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7744d7c1+231]
+
+2026-05-07 17:18:00,172 - Bright_Automation - WARNING - Dashboard shell not detected immediately after OTP login.
+2026-05-07 17:18:00,172 - Bright_Automation - INFO - Validating session at https://app.brightcone.ai/dashboard...
+2026-05-07 17:18:01,272 - Bright_Automation - INFO - Current URL: https://app.brightcone.ai/dashboard
+2026-05-07 17:18:21,355 - Bright_Automation - WARNING - Dashboard authentication element not found within 20s: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xdcb373+10553]
+	chromedriver!GetHandleVerifier [0xdcb4a4+10684]
+	chromedriver!(No symbol) [0xbd1e10]
+	chromedriver!(No symbol) [0xc1a9da]
+	chromedriver!(No symbol) [0xc1ac7b]
+	chromedriver!(No symbol) [0xc5d162]
+	chromedriver!(No symbol) [0xc3d8b4]
+	chromedriver!(No symbol) [0xc5aa36]
+	chromedriver!(No symbol) [0xc3d606]
+	chromedriver!(No symbol) [0xc10039]
+	chromedriver!(No symbol) [0xc10df4]
+	chromedriver!GetHandleVerifier [0x104ddb4+292f94]
+	chromedriver!GetHandleVerifier [0x104937d+28e55d]
+	chromedriver!GetHandleVerifier [0x1068215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xde4c18+29df8]
+	chromedriver!GetHandleVerifier [0xdec6fd+318dd]
+	chromedriver!GetHandleVerifier [0xdd3c78+18e58]
+	chromedriver!GetHandleVerifier [0xdd3e42+19022]
+	chromedriver!GetHandleVerifier [0xdbd45f+263f]
+	KERNEL32!BaseThreadInitThunk [0x76605d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7744d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7744d7c1+231]
+
+2026-05-07 17:18:21,357 - Bright_Automation - WARNING - Session invalid: dashboard authenticated element was not found.
+2026-05-07 17:18:21,357 - Bright_Automation - ERROR - Login performed but validation failed. Check if account has correct permissions.
+2026-05-07 17:18:21,362 - Bright_Automation - INFO - --------------------------------------------------
+2026-05-07 17:18:21,362 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-05-07 17:18:21,363 - Bright_Automation - INFO - --------------------------------------------------
+2026-05-07 17:18:21,363 - Bright_Automation - INFO -   Scenarios Selected  : 0
+2026-05-07 17:18:21,363 - Bright_Automation - INFO -   Scenarios Passed    : 0
+2026-05-07 17:18:21,363 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-05-07 17:18:21,363 - Bright_Automation - INFO -   Scenarios Skipped   : 0
+2026-05-07 17:18:21,364 - Bright_Automation - INFO -   Total Run Time      : 88.5s
+2026-05-07 17:18:21,364 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-05-07 17:18:21,364 - Bright_Automation - INFO - --------------------------------------------------
+2026-05-07 17:18:21,364 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-05-07 17:18:34,638 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-05-07 17:18:34,710 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-05-07 17:18:38,244 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-05-07 17:18:38,248 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-05-07 17:18:38,248 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

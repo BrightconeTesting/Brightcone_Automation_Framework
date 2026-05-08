@@ -1,0 +1,88 @@
+2026-05-07 17:36:17,206 - Bright_Automation - INFO - Initializing global test configuration...
+2026-05-07 17:36:17,206 - Bright_Automation - INFO - Launching Chrome browser...
+2026-05-07 17:36:20,346 - Bright_Automation - INFO - Session strategy: PROFILE persistence enabled.
+2026-05-07 17:36:20,348 - Bright_Automation - INFO - Manual serialized restore enabled: False
+2026-05-07 17:36:20,348 - Bright_Automation - INFO - Browser launched successfully.
+2026-05-07 17:36:20,349 - Bright_Automation - INFO - Attempting to reuse profile-based authenticated session...
+2026-05-07 17:36:20,351 - Bright_Automation - INFO - Validating session at https://app.brightcone.ai/dashboard...
+2026-05-07 17:36:21,761 - Bright_Automation - INFO - Current URL: https://app.brightcone.ai/dashboard
+2026-05-07 17:36:41,842 - Bright_Automation - WARNING - Dashboard authentication element not found within 20s: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x33b373+10553]
+	chromedriver!GetHandleVerifier [0x33b4a4+10684]
+	chromedriver!(No symbol) [0x141e10]
+	chromedriver!(No symbol) [0x18a9da]
+	chromedriver!(No symbol) [0x18ac7b]
+	chromedriver!(No symbol) [0x1cd162]
+	chromedriver!(No symbol) [0x1ad8b4]
+	chromedriver!(No symbol) [0x1caa36]
+	chromedriver!(No symbol) [0x1ad606]
+	chromedriver!(No symbol) [0x180039]
+	chromedriver!(No symbol) [0x180df4]
+	chromedriver!GetHandleVerifier [0x5bddb4+292f94]
+	chromedriver!GetHandleVerifier [0x5b937d+28e55d]
+	chromedriver!GetHandleVerifier [0x5d8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0x354c18+29df8]
+	chromedriver!GetHandleVerifier [0x35c6fd+318dd]
+	chromedriver!GetHandleVerifier [0x343c78+18e58]
+	chromedriver!GetHandleVerifier [0x343e42+19022]
+	chromedriver!GetHandleVerifier [0x32d45f+263f]
+	KERNEL32!BaseThreadInitThunk [0x76605d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7744d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7744d7c1+231]
+	(No symbol) [(nil)]
+
+2026-05-07 17:36:41,842 - Bright_Automation - WARNING - Session invalid: dashboard authenticated element was not found.
+2026-05-07 17:36:41,842 - Bright_Automation - WARNING - Profile session not valid.
+2026-05-07 17:36:41,842 - Bright_Automation - INFO - Session is missing or invalid. Triggering full login flow...
+2026-05-07 17:36:43,543 - Bright_Automation - INFO - Waiting for OTP...
+2026-05-07 17:36:57,722 - Bright_Automation - INFO - Waiting for login to complete (URL change)...
+2026-05-07 17:36:58,293 - Bright_Automation - ERROR - Auto-login failed: 'NoneType' object has no attribute 'lower'
+2026-05-07 17:36:58,317 - Bright_Automation - INFO - --- START FEATURE: Resume Management in Recruitment Module ---
+2026-05-07 17:36:58,320 - Bright_Automation - INFO - Scenario: Add a resume for ML Engineer role - Status: STARTED
+2026-05-07 17:36:58,335 - Bright_Automation - WARNING - Could not reset state before scenario: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.138)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x33b373+10553]
+	chromedriver!GetHandleVerifier [0x33b4a4+10684]
+	chromedriver!(No symbol) [0x141e10]
+	chromedriver!(No symbol) [0x120923]
+	chromedriver!(No symbol) [0x1b3bcb]
+	chromedriver!(No symbol) [0x1ca3a9]
+	chromedriver!(No symbol) [0x1ad606]
+	chromedriver!(No symbol) [0x180039]
+	chromedriver!(No symbol) [0x180df4]
+	chromedriver!GetHandleVerifier [0x5bddb4+292f94]
+	chromedriver!GetHandleVerifier [0x5b937d+28e55d]
+	chromedriver!GetHandleVerifier [0x5d8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0x354c18+29df8]
+	chromedriver!GetHandleVerifier [0x35c6fd+318dd]
+	chromedriver!GetHandleVerifier [0x343c78+18e58]
+	chromedriver!GetHandleVerifier [0x343e42+19022]
+	chromedriver!GetHandleVerifier [0x32d45f+263f]
+	KERNEL32!BaseThreadInitThunk [0x76605d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7744d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7744d7c1+231]
+	(No symbol) [(nil)]
+
+2026-05-07 17:36:58,367 - Bright_Automation - INFO -   Step: GIVEN I am logged into the application
+2026-05-07 17:36:58,403 - Bright_Automation - WARNING - Scenario: Add a resume for ML Engineer role - Status: SKIPPED
+
+2026-05-07 17:36:58,419 - Bright_Automation - INFO - --- END FEATURE: Resume Management in Recruitment Module ---
+2026-05-07 17:36:58,427 - Bright_Automation - INFO - --------------------------------------------------
+2026-05-07 17:36:58,427 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-05-07 17:36:58,427 - Bright_Automation - INFO - --------------------------------------------------
+2026-05-07 17:36:58,429 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-05-07 17:36:58,429 - Bright_Automation - INFO -   Scenarios Passed    : 0
+2026-05-07 17:36:58,429 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-05-07 17:36:58,430 - Bright_Automation - INFO -   Scenarios Skipped   : 1
+2026-05-07 17:36:58,430 - Bright_Automation - INFO -   Total Run Time      : 41.22s
+2026-05-07 17:36:58,432 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-05-07 17:36:58,432 - Bright_Automation - INFO - --------------------------------------------------
+2026-05-07 17:36:58,432 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-05-07 17:37:11,465 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-05-07 17:37:11,534 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-05-07 17:37:14,963 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-05-07 17:37:14,967 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-05-07 17:37:14,968 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

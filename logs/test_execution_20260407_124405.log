@@ -1,0 +1,48 @@
+2026-04-07 12:44:05,860 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-07 12:44:05,861 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-07 12:44:10,499 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-07 12:44:10,782 - Bright_Automation - INFO - --- START FEATURE: Resume Management in Recruitment Module ---
+2026-04-07 12:44:10,809 - Bright_Automation - INFO - Scenario: Upload resume with unsupported file format - Status: STARTED
+2026-04-07 12:44:10,813 - Bright_Automation - INFO -   Step: GIVEN I am logged into the application
+2026-04-07 12:44:34,446 - Bright_Automation - INFO -   Step: I am logged into the application - Status: PASSED
+2026-04-07 12:44:34,454 - Bright_Automation - INFO -   Step: WHEN I navigate to Recruitment module
+2026-04-07 12:44:34,835 - Bright_Automation - INFO -   Step: I navigate to Recruitment module - Status: PASSED
+2026-04-07 12:44:34,836 - Bright_Automation - INFO -   Step: WHEN I click on continue button of ML engineer role
+2026-04-07 12:44:39,007 - Bright_Automation - INFO -   Step: I click on continue button of ML engineer role - Status: PASSED
+2026-04-07 12:44:39,012 - Bright_Automation - INFO -   Step: WHEN I click on "Add Candidate" or "Upload Resume"
+2026-04-07 12:44:40,799 - Bright_Automation - INFO -   Step: I click on "Add Candidate" or "Upload Resume" - Status: PASSED
+2026-04-07 12:44:40,817 - Bright_Automation - INFO -   Step: WHEN I upload a Invalid resume file
+2026-04-07 12:44:41,266 - Bright_Automation - INFO -   Step: I upload a Invalid resume file - Status: PASSED
+2026-04-07 12:44:41,266 - Bright_Automation - INFO -   Step: THEN I should see an error message for invalid file type
+2026-04-07 12:44:41,400 - Bright_Automation - ERROR -   Step: I should see an error message for invalid file type - Status: FAILED
+2026-04-07 12:44:41,417 - Bright_Automation - ERROR -   Error Traceback:
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python311\Lib\site-packages\behave\model.py", line 1991, in run
+    match.run(runner.context)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python311\Lib\site-packages\behave\matchers.py", line 105, in run
+    self.func(context, *args, **kwargs)
+  File "features\steps\recruitment_steps.py", line 97, in verify_invalid_file_error
+    assert actual_error == expected_error, f"Error message mismatch! Expected: {expected_error}, but got: {actual_error}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Error message mismatch! Expected: Some files were skipped. Only PDF and DOCX files are support., but got: Some files were skipped. Only PDF and DOCX files are supported.
+
+2026-04-07 12:44:41,785 - Bright_Automation - INFO -   Screenshot saved at: screenshots\FAILED_I_should_see_an_error_message_for_invalid_file_typ_20260407_124441.png
+2026-04-07 12:44:42,104 - Bright_Automation - INFO -   Screenshot attached to Allure report.
+2026-04-07 12:44:42,110 - Bright_Automation - ERROR - Scenario: Upload resume with unsupported file format - Status: FAILED
+
+2026-04-07 12:44:42,114 - Bright_Automation - INFO - --- END FEATURE: Resume Management in Recruitment Module ---
+2026-04-07 12:44:42,122 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-07 12:44:42,122 - Bright_Automation - INFO -  FINAL TEST EXECUTION SUMMARY 
+2026-04-07 12:44:42,122 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-07 12:44:42,122 - Bright_Automation - INFO -   Total Scenarios  : 0
+2026-04-07 12:44:42,122 - Bright_Automation - INFO -   Passed           : 0
+2026-04-07 12:44:42,122 - Bright_Automation - INFO -   Failed           : 0
+2026-04-07 12:44:42,122 - Bright_Automation - INFO -   Skipped          : 0
+2026-04-07 12:44:42,122 - Bright_Automation - INFO -   Total Time       : 36.26s
+2026-04-07 12:44:42,122 - Bright_Automation - INFO -   Overall Status   : PASS
+2026-04-07 12:44:42,122 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-07 12:44:42,127 - Bright_Automation - INFO - Quitting browser...
+2026-04-07 12:44:45,893 - Bright_Automation - INFO - Automatically generating Allure HTML report...
+2026-04-07 12:44:52,247 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-07 12:44:52,251 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-07 12:44:52,254 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

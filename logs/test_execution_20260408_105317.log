@@ -1,0 +1,41 @@
+2026-04-08 10:53:17,877 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-08 10:53:17,877 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-08 10:53:22,308 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-08 10:53:22,421 - Bright_Automation - INFO - --- START FEATURE: Document Upload and Status Validation ---
+2026-04-08 10:53:22,429 - Bright_Automation - INFO - Scenario: Upload document and verify its status dynamically - Status: STARTED
+2026-04-08 10:53:22,437 - Bright_Automation - INFO -   Step: GIVEN User launches the application
+2026-04-08 10:53:26,082 - Bright_Automation - INFO -   Step: User launches the application - Status: PASSED
+2026-04-08 10:53:26,082 - Bright_Automation - INFO -   Step: GIVEN User logs in with valid credentials
+2026-04-08 10:53:50,318 - Bright_Automation - INFO -   Step: User logs in with valid credentials - Status: PASSED
+2026-04-08 10:53:50,322 - Bright_Automation - INFO -   Step: WHEN User navigates to Documents page
+2026-04-08 10:53:50,638 - Bright_Automation - INFO -   Step: User navigates to Documents page - Status: PASSED
+2026-04-08 10:53:50,639 - Bright_Automation - INFO -   Step: WHEN User uploads a document
+2026-04-08 10:54:00,128 - Bright_Automation - INFO -   Step: User uploads a document - Status: PASSED
+2026-04-08 10:54:00,129 - Bright_Automation - INFO -   Step: WHEN User selects the "Admin" category
+2026-04-08 10:54:00,361 - Bright_Automation - INFO -   Step: User selects the "Admin" category - Status: PASSED
+2026-04-08 10:54:00,362 - Bright_Automation - INFO -   Step: WHEN User selects the "Engineering" category
+2026-04-08 10:54:00,675 - Bright_Automation - INFO -   Step: User selects the "Engineering" category - Status: PASSED
+2026-04-08 10:54:00,677 - Bright_Automation - INFO -   Step: WHEN User selects the "Support" category
+2026-04-08 10:54:01,046 - Bright_Automation - INFO -   Step: User selects the "Support" category - Status: PASSED
+2026-04-08 10:54:01,051 - Bright_Automation - INFO -   Step: WHEN User clicks the "Upload" button
+2026-04-08 10:54:03,481 - Bright_Automation - INFO -   Step: User clicks the "Upload" button - Status: PASSED
+2026-04-08 10:54:03,503 - Bright_Automation - INFO -   Step: THEN Uploaded document should be visible in My Uploads
+2026-04-08 10:54:23,658 - Bright_Automation - WARNING - Scenario: Upload document and verify its status dynamically - Status: SKIPPED
+
+2026-04-08 10:54:23,666 - Bright_Automation - INFO - --- END FEATURE: Document Upload and Status Validation ---
+2026-04-08 10:54:23,771 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 10:54:23,826 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-04-08 10:54:23,854 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 10:54:23,861 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-04-08 10:54:23,863 - Bright_Automation - INFO -   Scenarios Passed    : 0
+2026-04-08 10:54:23,865 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-04-08 10:54:23,865 - Bright_Automation - INFO -   Scenarios Skipped   : 1
+2026-04-08 10:54:23,865 - Bright_Automation - INFO -   Total Run Time      : 65.89s
+2026-04-08 10:54:23,868 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-04-08 10:54:23,868 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-08 10:54:23,870 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-04-08 10:54:37,260 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-04-08 10:54:37,327 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-04-08 10:54:43,872 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-08 10:54:43,887 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-08 10:54:43,890 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

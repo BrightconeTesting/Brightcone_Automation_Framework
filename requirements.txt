@@ -1,0 +1,10 @@
+selenium
+webdriver-manager
+imap-tools
+behave
+behave-html-formatter
+allure-behave
+allure-python-commons
+pyautogui
+pyperclip
+python-dotenv

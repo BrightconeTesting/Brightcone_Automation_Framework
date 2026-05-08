@@ -1,0 +1,17 @@
+2026-04-07 12:02:47,612 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-07 12:02:47,615 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-07 12:02:52,109 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-07 12:02:52,928 - Bright_Automation - INFO - ==================================================
+2026-04-07 12:02:52,943 - Bright_Automation - INFO -  EXECUTION SUMMARY DASHBOARD 
+2026-04-07 12:02:52,954 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-07 12:02:52,965 - Bright_Automation - INFO -   Total Scenarios  : 0
+2026-04-07 12:02:52,993 - Bright_Automation - INFO -   Passed           : 0
+2026-04-07 12:02:53,006 - Bright_Automation - INFO -   Failed           : 0
+2026-04-07 12:02:53,029 - Bright_Automation - INFO -   Skipped          : 0
+2026-04-07 12:02:53,042 - Bright_Automation - INFO -   Execution Time   : 5.32 seconds
+2026-04-07 12:02:53,060 - Bright_Automation - INFO -   Overall Status   : PASS
+2026-04-07 12:02:53,083 - Bright_Automation - INFO - ==================================================
+2026-04-07 12:02:53,102 - Bright_Automation - INFO - Quitting browser...
+2026-04-07 12:02:57,135 - Bright_Automation - INFO - Automatically generating Allure HTML report...
+2026-04-07 12:03:03,961 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-07 12:03:03,963 - Bright_Automation - INFO - To view, run: allure open reports/allure-report
