@@ -1,0 +1,44 @@
+2026-04-14 17:18:08,130 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-14 17:18:08,130 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-14 17:18:11,473 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-14 17:18:11,539 - Bright_Automation - INFO - --- START FEATURE: Resume Management in Recruitment Module ---
+2026-04-14 17:18:11,598 - Bright_Automation - INFO - Scenario: Validate Approve Shortlist button behavior and navigation to Interview Management - Status: STARTED
+2026-04-14 17:18:11,610 - Bright_Automation - INFO -   Step: GIVEN User is logged into the application
+2026-04-14 17:18:32,153 - Bright_Automation - INFO -   Step: User is logged into the application - Status: PASSED
+2026-04-14 17:18:32,155 - Bright_Automation - INFO -   Step: WHEN User clicks on "Recruitment" side menu
+2026-04-14 17:18:32,397 - Bright_Automation - INFO -   Step: User clicks on "Recruitment" side menu - Status: PASSED
+2026-04-14 17:18:32,417 - Bright_Automation - INFO -   Step: WHEN User clicks on "Shortlisting" icon
+2026-04-14 17:18:34,323 - Bright_Automation - INFO -   Step: User clicks on "Shortlisting" icon - Status: PASSED
+2026-04-14 17:18:34,325 - Bright_Automation - INFO -   Step: WHEN User selects "QA Engineer" role from "All Roles" dropdown
+2026-04-14 17:18:36,689 - Bright_Automation - INFO -   Step: User selects "QA Engineer" role from "All Roles" dropdown - Status: PASSED
+2026-04-14 17:18:36,696 - Bright_Automation - INFO -   Step: THEN "Approve Shortlist" button should be disabled
+2026-04-14 17:18:37,774 - Bright_Automation - INFO -   Step: "Approve Shortlist" button should be disabled - Status: PASSED
+2026-04-14 17:18:37,774 - Bright_Automation - INFO -   Step: WHEN User selects the candidates based on the provided name
+2026-04-14 17:18:37,911 - Bright_Automation - INFO -   Step: User selects the candidates based on the provided name - Status: PASSED
+2026-04-14 17:18:37,913 - Bright_Automation - INFO -   Step: THEN "Approve Shortlist" button should be enabled
+2026-04-14 17:18:38,952 - Bright_Automation - INFO -   Step: "Approve Shortlist" button should be enabled - Status: PASSED
+2026-04-14 17:18:38,959 - Bright_Automation - INFO -   Step: WHEN User clicks on "Approve Shortlist" button
+2026-04-14 17:18:39,091 - Bright_Automation - INFO -   Step: User clicks on "Approve Shortlist" button - Status: PASSED
+2026-04-14 17:18:39,092 - Bright_Automation - INFO -   Step: THEN User should be navigated to "Interview Management" page
+2026-04-14 17:18:41,256 - Bright_Automation - INFO -   Step: User should be navigated to "Interview Management" page - Status: PASSED
+2026-04-14 17:18:41,256 - Bright_Automation - INFO -   Step: THEN Page should display text "User" in Interview Management page
+2026-04-14 17:18:42,272 - Bright_Automation - INFO -   Step: Page should display text "User" in Interview Management page - Status: PASSED
+2026-04-14 17:18:42,272 - Bright_Automation - INFO - Scenario: Validate Approve Shortlist button behavior and navigation to Interview Management - Status: PASSED
+
+2026-04-14 17:18:42,277 - Bright_Automation - INFO - --- END FEATURE: Resume Management in Recruitment Module ---
+2026-04-14 17:18:42,277 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-14 17:18:42,280 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-04-14 17:18:42,281 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-14 17:18:42,281 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-04-14 17:18:42,281 - Bright_Automation - INFO -   Scenarios Passed    : 1
+2026-04-14 17:18:42,281 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-04-14 17:18:42,282 - Bright_Automation - INFO -   Scenarios Skipped   : 0
+2026-04-14 17:18:42,282 - Bright_Automation - INFO -   Total Run Time      : 34.15s
+2026-04-14 17:18:42,282 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-04-14 17:18:42,282 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-14 17:18:42,282 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-04-14 17:18:55,589 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-04-14 17:18:55,608 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-04-14 17:19:01,181 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-14 17:19:01,187 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-14 17:19:01,187 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

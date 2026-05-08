@@ -1,0 +1,22 @@
+2026-05-04 13:07:45,642 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-04 13:07:45,643 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-04 13:07:45,643 - Bright_Automation - INFO - Current Execution Role: USER
+2026-05-04 13:07:45,643 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: True
+2026-05-04 13:07:45,655 - Bright_Automation - INFO - Scenario: Connect Google Drive and Verify Candidate Profile - STARTED
+2026-05-04 13:07:45,655 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: True
+2026-05-04 13:07:45,655 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=True)...
+2026-05-04 13:08:07,186 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-04 13:08:07,204 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Connect Google Drive and Verify Candidate Profile' and Role: 'user'
+2026-05-04 13:08:07,205 - Bright_Automation - INFO - Test data loaded for scenario: Connect Google Drive and Verify Candidate Profile
+2026-05-04 13:08:07,207 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-05-04 13:08:09,470 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-05-04 13:08:09,470 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-05-04 13:08:10,041 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-05-04 13:08:34,086 - Bright_Automation - INFO - Navigating to Recruitment module...
+2026-05-04 13:08:34,202 - Bright_Automation - INFO - Clicking My Queue icon...
+2026-05-04 13:08:35,033 - Bright_Automation - INFO - Searching and opening role: Test Engineer
+2026-05-04 13:08:36,248 - Bright_Automation - INFO - Selecting source: Google Drive Folder
+2026-05-04 13:08:37,886 - Bright_Automation - INFO - Pasting Google Drive link: https://drive.google.com/drive/folders/1McKz4CeA8k6TcQnjtseBzJ15Sk1k0hSE?usp=sharing
+2026-05-04 13:08:38,402 - Bright_Automation - INFO - Clicking on button: Save Configuration
+2026-05-04 13:08:42,117 - Bright_Automation - INFO - Test execution completed.
+2026-05-04 13:08:42,118 - Bright_Automation - INFO - Total Execution Time: 56.48s

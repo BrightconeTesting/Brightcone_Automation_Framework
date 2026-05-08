@@ -11,7 +11,11 @@ import os
 # Test Data
 EMAIL = "munjalaharikrishna123@gmail.com"
 APP_PASSWORD = "linx lpbq ljjj widk"
+<<<<<<< HEAD
 LOGIN_URL = "https://app.brightcone.ai/login"
+=======
+LOGIN_URL = "https://staging-app.brightcone.ai"
+>>>>>>> a47c1fe2ef3455fd6c1379e7bfde553d708c9201
 
 @pytest.fixture(scope="session")
 def driver():
@@ -74,7 +78,11 @@ def test_login_with_otp(driver):
     print(f"[DEBUG] Current URL after login: {current_url}")
     
     # Simple assertion for demonstration
+<<<<<<< HEAD
     assert "login" not in current_url.lower() or "dashboard" in current_url.lower(), "Login failed! Still on the login page."
+=======
+    assert "https://staging-app.brightcone.ai" in current_url.lower() and ("login" not in current_url.lower() or "dashboard" in current_url.lower()), "Login failed! Still on the login page."
+>>>>>>> a47c1fe2ef3455fd6c1379e7bfde553d708c9201
     print("[SUCCESS] Login test completed!")
 
 if __name__ == "__main__":

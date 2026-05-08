@@ -1,0 +1,21 @@
+2026-04-20 14:01:57,202 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-20 14:01:57,202 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-20 14:01:57,205 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-20 14:01:57,205 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX
+2026-04-20 14:01:57,238 - Bright_Automation - INFO - Scenario: Upload resume with unsupported file format - STARTED
+2026-04-20 14:01:57,238 - Bright_Automation - DEBUG - Launching firefox for scenario: Upload resume with unsupported file format
+2026-04-20 14:01:57,241 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox
+2026-04-20 14:01:57,241 - Bright_Automation - INFO - Setting up Firefox WebDriver...
+2026-04-20 14:02:21,735 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Upload resume with unsupported file format' and Role: 'user'
+2026-04-20 14:02:21,739 - Bright_Automation - INFO - Test data loaded for scenario: Upload resume with unsupported file format
+2026-04-20 14:02:21,791 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-04-20 14:02:24,920 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-04-20 14:02:24,920 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-04-20 14:02:25,912 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-04-20 14:02:50,020 - Bright_Automation - INFO - Navigating to Recruitment module...
+2026-04-20 14:02:50,145 - Bright_Automation - INFO - Clicking Continue button for role: ML Engineer
+2026-04-20 14:02:52,779 - Bright_Automation - INFO - Navigating to Candidate upload section...
+2026-04-20 14:02:54,278 - Bright_Automation - INFO - Uploading recruitment document: C:\Users\Dell\Downloads\Basic Java Concepts questions.txt
+2026-04-20 14:02:55,475 - Bright_Automation - INFO - Quitting browser for scenario: Upload resume with unsupported file format
+2026-04-20 14:02:58,927 - Bright_Automation - INFO - Test execution completed.
+2026-04-20 14:02:58,927 - Bright_Automation - INFO - Total Execution Time: 61.72s

@@ -1,0 +1,13 @@
+2026-05-04 14:36:36,886 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-04 14:36:36,891 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-04 14:36:36,892 - Bright_Automation - INFO - Current Execution Role: USER
+2026-05-04 14:36:36,892 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: True
+2026-05-04 14:36:36,902 - Bright_Automation - INFO - Scenario: Connect Google Drive and Verify Candidate Profile - STARTED
+2026-05-04 14:36:36,902 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: True
+2026-05-04 14:36:36,903 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=True)...
+2026-05-04 14:37:02,408 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-04 14:37:02,425 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Connect Google Drive and Verify Candidate Profile' and Role: 'user'
+2026-05-04 14:37:02,425 - Bright_Automation - INFO - Test data loaded for scenario: Connect Google Drive and Verify Candidate Profile
+2026-05-04 14:37:02,428 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-05-04 14:37:37,523 - Bright_Automation - INFO - Test execution completed.
+2026-05-04 14:37:37,523 - Bright_Automation - INFO - Total Execution Time: 60.64s

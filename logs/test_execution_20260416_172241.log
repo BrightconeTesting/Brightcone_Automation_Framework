@@ -1,0 +1,15 @@
+2026-04-16 17:22:44,099 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-16 17:22:44,101 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-16 17:22:44,105 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-16 17:22:48,166 - Bright_Automation - INFO - Browser launched for Staging
+2026-04-16 17:22:48,215 - Bright_Automation - INFO - Scenario: Upload and verify engineer resume - STARTED
+2026-04-16 17:22:48,336 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Upload and verify engineer resume' and Role: 'user'
+2026-04-16 17:22:48,338 - Bright_Automation - ERROR - No test data found for Scenario: 'Upload and verify engineer resume' with Role: 'user'
+2026-04-16 17:22:48,341 - Bright_Automation - WARNING - Could not load specific Excel data for scenario: No test data found for Scenario: 'Upload and verify engineer resume' with Role: 'user'
+2026-04-16 17:22:48,368 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-04-16 17:22:50,568 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-04-16 17:22:50,569 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-04-16 17:22:52,227 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-04-16 17:23:17,177 - Bright_Automation - INFO - Navigating to Documents page...
+2026-04-16 17:23:17,832 - Bright_Automation - WARNING - No category found for this scenario.
+2026-04-16 17:23:21,068 - Bright_Automation - INFO - Test execution completed.

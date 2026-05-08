@@ -1,0 +1,17 @@
+2026-04-15 16:25:23,746 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-15 16:25:23,746 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-15 16:25:23,746 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-15 16:25:27,493 - Bright_Automation - INFO - Browser launched for staging
+2026-04-15 16:25:27,588 - Bright_Automation - INFO - Scenario: Upload and verify engineer resume - STARTED
+2026-04-15 16:25:27,678 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Upload and verify engineer resume' and Role: 'user'
+2026-04-15 16:25:27,681 - Bright_Automation - INFO - Test data loaded for scenario: Upload and verify engineer resume
+2026-04-15 16:25:27,683 - Bright_Automation - DEBUG - Scenario Data: {'scenario': 'Upload and verify engineer resume', 'role': 'user', 'file_name': 'Engineer_Resume.pdf', 'expected_result': 'uploaded document was uder review', 'category': 'Engineering'}
+2026-04-15 16:25:27,691 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-04-15 16:25:29,070 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-04-15 16:25:29,071 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-04-15 16:25:31,170 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-04-15 16:25:56,484 - Bright_Automation - INFO - Navigating to Documents page...
+2026-04-15 16:25:56,866 - Bright_Automation - INFO - Selecting category from Excel: Engineering
+2026-04-15 16:25:58,121 - Bright_Automation - INFO - Uploading document from path: C:\Users\Dell\Downloads\Engineer_Resume.pdf
+2026-04-15 16:26:05,789 - Bright_Automation - INFO - Clicking the final Upload button...
+2026-04-15 16:26:16,655 - Bright_Automation - INFO - Test execution completed.

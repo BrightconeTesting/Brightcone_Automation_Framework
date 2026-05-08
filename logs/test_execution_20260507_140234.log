@@ -1,0 +1,21 @@
+2026-05-07 14:02:35,513 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-07 14:02:35,514 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-07 14:02:35,514 - Bright_Automation - INFO - Current Execution Role: ADMIN
+2026-05-07 14:02:35,514 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: False
+2026-05-07 14:02:35,529 - Bright_Automation - INFO - Scenario: Cancel scheduled interview and verify status - STARTED
+2026-05-07 14:02:35,530 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: False
+2026-05-07 14:02:35,532 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=False)...
+2026-05-07 14:02:55,329 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-07 14:02:55,422 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Cancel scheduled interview and verify status' and Role: 'admin'
+2026-05-07 14:02:55,426 - Bright_Automation - INFO - Test data loaded for scenario: Cancel scheduled interview and verify status
+2026-05-07 14:02:55,443 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role admin
+2026-05-07 14:02:57,794 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-05-07 14:02:57,794 - Bright_Automation - INFO - Logging in with email: harikrishnamunjala@yanthraa.com (Role: admin)
+2026-05-07 14:02:58,469 - Bright_Automation - INFO - Waiting 10s for OTP...
+2026-05-07 14:03:17,109 - Bright_Automation - INFO - Navigating to Recruitment module for role: admin
+2026-05-07 14:03:18,158 - Bright_Automation - INFO - Selecting role from dropdown: QA Engineer
+2026-05-07 14:03:20,023 - Bright_Automation - INFO - Navigating to Schedule section...
+2026-05-07 14:03:20,848 - Bright_Automation - INFO - Selecting Past schedule interviews...
+2026-05-07 14:03:21,653 - Bright_Automation - INFO - Opening Action menu and choosing Cancel...
+2026-05-07 14:03:41,953 - Bright_Automation - INFO - Test execution completed.
+2026-05-07 14:03:41,953 - Bright_Automation - INFO - Total Execution Time: 66.44s

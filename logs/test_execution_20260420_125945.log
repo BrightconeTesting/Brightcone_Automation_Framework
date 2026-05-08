@@ -1,0 +1,11 @@
+2026-04-20 12:59:47,368 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-20 12:59:47,368 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-20 12:59:47,368 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-20 12:59:47,372 - Bright_Automation - INFO - Selected Browser for Run: EDGE
+2026-04-20 12:59:47,380 - Bright_Automation - INFO - Scenario: Add a resume for ML Engineer role - STARTED
+2026-04-20 12:59:47,380 - Bright_Automation - DEBUG - Launching edge for scenario: Add a resume for ML Engineer role
+2026-04-20 12:59:47,381 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: edge
+2026-04-20 12:59:47,381 - Bright_Automation - INFO - Setting up Edge WebDriver...
+2026-04-20 12:59:58,985 - Bright_Automation - ERROR - Failed to launch browser 'edge': Could not reach host. Are you offline?
+2026-04-20 12:59:59,019 - Bright_Automation - INFO - Test execution completed.
+2026-04-20 12:59:59,020 - Bright_Automation - INFO - Total Execution Time: 11.65s

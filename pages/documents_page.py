@@ -3,17 +3,21 @@ from base.base_page import BasePage
 import os
 import time
 
+<<<<<<< HEAD
 try:
     import pyautogui
     import pyperclip
 except ImportError:
     # We catch this later in the method to provide a clear error message
     pass
+=======
+>>>>>>> a47c1fe2ef3455fd6c1379e7bfde553d708c9201
 
 class DocumentsPage(BasePage):
     # Locators provided by user
     DOCUMENTS_MENU = (By.XPATH, "//span[text()='Documents']")
     FILE_UPLOAD_SECTION = (By.XPATH, "//h3[contains(text(), 'Choose a file')]")
+<<<<<<< HEAD
     # Hidden file input usually near the upload section
     FILE_INPUT = (By.XPATH, "//input[@type='file']") 
     UPLOAD_BUTTON = (By.XPATH, "//button[contains(text(), 'Upload')]")
@@ -22,6 +26,17 @@ class DocumentsPage(BasePage):
     ADMIN_CAT = (By.XPATH, "//span[text()='Admin (1)']")
     ENGINEERING_CAT = (By.XPATH, "//span[text()='Engineering (0)']")
     SUPPORT_CAT = (By.XPATH, "//span[text()='Support (0)']")
+=======
+    # Replaced pyautogui-based locator with direct file input for Selenium send_keys
+    FILE_INPUT = (By.XPATH, "//div[contains(@class,'cursor-pointer')]//input[@type='file']") 
+    UPLOAD_BUTTON = (By.XPATH, "//button[contains(text(), 'Upload')]")
+    
+    # Category Locators
+    ADMIN_CAT = (By.XPATH, "(//span[contains(text(),'Admin')])[1]")
+    ENGINEERING_CAT = (By.XPATH, "//span[text()='Engineering (0)']")
+    SUPPORT_CAT = (By.XPATH, "//span[text()='Support (0)']")
+    GENERAL_CAT = (By.XPATH, "//span[contains(text(), 'General')]")
+>>>>>>> a47c1fe2ef3455fd6c1379e7bfde553d708c9201
     
     # Navigation/Dashboard
     DASHBOARD_ICON = (By.XPATH, '//*[@id="root"]/div[1]/div/div[2]/aside/div[2]/nav/a[1]')
@@ -43,7 +58,12 @@ class DocumentsPage(BasePage):
         mapping = {
             "Admin": self.ADMIN_CAT,
             "Engineering": self.ENGINEERING_CAT,
+<<<<<<< HEAD
             "Support": self.SUPPORT_CAT
+=======
+            "Support": self.SUPPORT_CAT,
+            "General": self.GENERAL_CAT
+>>>>>>> a47c1fe2ef3455fd6c1379e7bfde553d708c9201
         }
         
         if category_name in mapping:
@@ -53,6 +73,7 @@ class DocumentsPage(BasePage):
 
     def upload_document(self, file_path):
         """
+<<<<<<< HEAD
         Uses keyboard actions to handle the OS File Dialog.
         """
         print("DEBUG: Clicking on FILE_UPLOAD_SECTION to open OS dialog...")
@@ -75,6 +96,18 @@ class DocumentsPage(BasePage):
         except Exception as e:
             print(f"[ERROR] OS File Dialog handling failed: {e}")
             raise
+=======
+        Uploads a document using Selenium's send_keys method for better stability and headless support.
+        """
+        print(f"DEBUG: Uploading document via standard Selenium send_keys: {file_path}")
+        abs_path = os.path.abspath(file_path)
+        
+        # Locate the hidden file input and send the absolute path
+        file_input = self.wait_for_element(self.FILE_INPUT)
+        file_input.send_keys(abs_path)
+        
+        print(f"[SUCCESS] Document path sent successfully to {self.FILE_INPUT[1]}")
+>>>>>>> a47c1fe2ef3455fd6c1379e7bfde553d708c9201
 
     def click_upload_button(self):
         """

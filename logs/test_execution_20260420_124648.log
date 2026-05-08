@@ -1,0 +1,36 @@
+2026-04-20 12:46:49,485 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-20 12:46:49,488 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-20 12:46:49,488 - Bright_Automation - INFO - Current Execution Role: ADMIN
+2026-04-20 12:46:49,489 - Bright_Automation - INFO - Selected Browser for Run: EDGE
+2026-04-20 12:46:49,496 - Bright_Automation - INFO - Scenario: Upload document and verify its status - STARTED
+2026-04-20 12:46:49,496 - Bright_Automation - DEBUG - Launching edge for scenario: Upload document and verify its status
+2026-04-20 12:46:49,496 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: edge
+2026-04-20 12:46:49,496 - Bright_Automation - INFO - Setting up Edge WebDriver...
+2026-04-20 12:47:03,642 - Bright_Automation - ERROR - Failed to launch browser 'edge': Could not reach host. Are you offline?
+2026-04-20 12:47:03,664 - Bright_Automation - INFO - Scenario: Login using email and OTP - STARTED
+2026-04-20 12:47:03,666 - Bright_Automation - DEBUG - Launching edge for scenario: Login using email and OTP
+2026-04-20 12:47:03,667 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: edge
+2026-04-20 12:47:03,667 - Bright_Automation - INFO - Setting up Edge WebDriver...
+2026-04-20 12:47:09,458 - Bright_Automation - ERROR - Failed to launch browser 'edge': Could not reach host. Are you offline?
+2026-04-20 12:47:09,577 - Bright_Automation - INFO - Scenario: Add a resume for ML Engineer role - STARTED
+2026-04-20 12:47:09,579 - Bright_Automation - DEBUG - Launching edge for scenario: Add a resume for ML Engineer role
+2026-04-20 12:47:09,579 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: edge
+2026-04-20 12:47:09,579 - Bright_Automation - INFO - Setting up Edge WebDriver...
+2026-04-20 12:47:15,867 - Bright_Automation - ERROR - Failed to launch browser 'edge': Could not reach host. Are you offline?
+2026-04-20 12:47:15,875 - Bright_Automation - INFO - Scenario: Upload resume with unsupported file format - STARTED
+2026-04-20 12:47:15,876 - Bright_Automation - DEBUG - Launching edge for scenario: Upload resume with unsupported file format
+2026-04-20 12:47:15,877 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: edge
+2026-04-20 12:47:15,877 - Bright_Automation - INFO - Setting up Edge WebDriver...
+2026-04-20 12:47:21,773 - Bright_Automation - ERROR - Failed to launch browser 'edge': Could not reach host. Are you offline?
+2026-04-20 12:47:21,782 - Bright_Automation - INFO - Scenario: Delete candidate from Recruitment module using dynamic resume name - STARTED
+2026-04-20 12:47:21,783 - Bright_Automation - DEBUG - Launching edge for scenario: Delete candidate from Recruitment module using dynamic resume name
+2026-04-20 12:47:21,783 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: edge
+2026-04-20 12:47:21,783 - Bright_Automation - INFO - Setting up Edge WebDriver...
+2026-04-20 12:47:28,276 - Bright_Automation - ERROR - Failed to launch browser 'edge': Could not reach host. Are you offline?
+2026-04-20 12:47:28,286 - Bright_Automation - INFO - Scenario: Validate Approve Shortlist button behavior and navigation to Interview Management - STARTED
+2026-04-20 12:47:28,286 - Bright_Automation - DEBUG - Launching edge for scenario: Validate Approve Shortlist button behavior and navigation to Interview Management
+2026-04-20 12:47:28,288 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: edge
+2026-04-20 12:47:28,288 - Bright_Automation - INFO - Setting up Edge WebDriver...
+2026-04-20 12:47:34,749 - Bright_Automation - ERROR - Failed to launch browser 'edge': Could not reach host. Are you offline?
+2026-04-20 12:47:34,754 - Bright_Automation - INFO - Test execution completed.
+2026-04-20 12:47:34,754 - Bright_Automation - INFO - Total Execution Time: 45.27s

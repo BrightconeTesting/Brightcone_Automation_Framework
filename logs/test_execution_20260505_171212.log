@@ -1,0 +1,20 @@
+2026-05-05 17:12:13,620 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-05 17:12:13,620 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-05 17:12:13,620 - Bright_Automation - INFO - Current Execution Role: ADMIN
+2026-05-05 17:12:13,622 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: False
+2026-05-05 17:12:13,631 - Bright_Automation - INFO - Scenario: Sync interview slot from calendar and verify date and time - STARTED
+2026-05-05 17:12:13,631 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: False
+2026-05-05 17:12:13,633 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=False)...
+2026-05-05 17:12:34,818 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-05 17:12:34,900 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Sync interview slot from calendar and verify date and time' and Role: 'admin'
+2026-05-05 17:12:34,900 - Bright_Automation - INFO - Test data loaded for scenario: Sync interview slot from calendar and verify date and time
+2026-05-05 17:12:34,902 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role admin
+2026-05-05 17:12:36,753 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-05-05 17:12:36,753 - Bright_Automation - INFO - Logging in with email: harikrishnamunjala@yanthraa.com (Role: admin)
+2026-05-05 17:12:37,347 - Bright_Automation - INFO - Waiting 10s for OTP...
+2026-05-05 17:12:56,255 - Bright_Automation - INFO - Selecting role from dropdown: QA Engineer
+2026-05-05 17:12:58,367 - Bright_Automation - INFO - Verifying 'Slot Pool' tab is enabled...
+2026-05-05 17:12:58,967 - Bright_Automation - INFO - Clicking on 'Slot Pool' tab...
+2026-05-05 17:13:07,131 - Bright_Automation - INFO - Verified date and time are displayed correctly.
+2026-05-05 17:13:10,361 - Bright_Automation - INFO - Test execution completed.
+2026-05-05 17:13:10,361 - Bright_Automation - INFO - Total Execution Time: 56.74s

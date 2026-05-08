@@ -1,0 +1,12 @@
+2026-05-05 16:08:34,240 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-05 16:08:34,242 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-05 16:08:34,242 - Bright_Automation - INFO - Current Execution Role: ADMIN
+2026-05-05 16:08:34,242 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: False
+2026-05-05 16:08:34,250 - Bright_Automation - INFO - Scenario: Sync interview slot from calendar and verify date and time - STARTED
+2026-05-05 16:08:34,250 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: False
+2026-05-05 16:08:34,253 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=False)...
+2026-05-05 16:08:57,080 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-05 16:08:57,115 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Sync interview slot from calendar and verify date and time' and Role: 'admin'
+2026-05-05 16:08:57,122 - Bright_Automation - INFO - Test data loaded for scenario: Sync interview slot from calendar and verify date and time
+2026-05-05 16:09:01,138 - Bright_Automation - INFO - Test execution completed.
+2026-05-05 16:09:01,138 - Bright_Automation - INFO - Total Execution Time: 26.90s

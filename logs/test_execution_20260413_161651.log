@@ -1,0 +1,38 @@
+2026-04-13 16:16:51,327 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-13 16:16:51,331 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-13 16:16:57,288 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-13 16:16:57,386 - Bright_Automation - INFO - --- START FEATURE: User Login with OTP ---
+2026-04-13 16:16:57,391 - Bright_Automation - INFO - Scenario: Login using email and OTP - Status: STARTED
+2026-04-13 16:16:57,403 - Bright_Automation - INFO -   Step: GIVEN I open the Brightcone login page
+2026-04-13 16:16:59,584 - Bright_Automation - INFO -   Step: I open the Brightcone login page - Status: PASSED
+2026-04-13 16:16:59,587 - Bright_Automation - INFO -   Step: WHEN I enter my email "munjalaharikrishna123@gmail.com"
+2026-04-13 16:17:02,227 - Bright_Automation - INFO -   Step: I enter my email "munjalaharikrishna123@gmail.com" - Status: PASSED
+2026-04-13 16:17:02,232 - Bright_Automation - INFO -   Step: WHEN I click on the Continue button
+2026-04-13 16:17:02,514 - Bright_Automation - INFO -   Step: I click on the Continue button - Status: PASSED
+2026-04-13 16:17:02,514 - Bright_Automation - INFO -   Step: THEN I fetch the latest 6-digit OTP from my Gmail inbox
+2026-04-13 16:17:17,062 - Bright_Automation - INFO -   Step: I fetch the latest 6-digit OTP from my Gmail inbox - Status: PASSED
+2026-04-13 16:17:17,065 - Bright_Automation - INFO -   Step: THEN I enter the 6-digit OTP into separate input fields
+2026-04-13 16:17:18,153 - Bright_Automation - INFO -   Step: I enter the 6-digit OTP into separate input fields - Status: PASSED
+2026-04-13 16:17:18,155 - Bright_Automation - INFO -   Step: THEN I click on the Login button
+2026-04-13 16:17:18,289 - Bright_Automation - INFO -   Step: I click on the Login button - Status: PASSED
+2026-04-13 16:17:18,292 - Bright_Automation - INFO -   Step: THEN I should be successfully logged in to the dashboard
+2026-04-13 16:17:23,336 - Bright_Automation - INFO -   Step: I should be successfully logged in to the dashboard - Status: PASSED
+2026-04-13 16:17:23,338 - Bright_Automation - INFO - Scenario: Login using email and OTP - Status: PASSED
+
+2026-04-13 16:17:23,344 - Bright_Automation - INFO - --- END FEATURE: User Login with OTP ---
+2026-04-13 16:17:23,357 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-13 16:17:23,358 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-04-13 16:17:23,360 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-13 16:17:23,361 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-04-13 16:17:23,361 - Bright_Automation - INFO -   Scenarios Passed    : 1
+2026-04-13 16:17:23,361 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-04-13 16:17:23,362 - Bright_Automation - INFO -   Scenarios Skipped   : 0
+2026-04-13 16:17:23,362 - Bright_Automation - INFO -   Total Run Time      : 32.03s
+2026-04-13 16:17:23,363 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-04-13 16:17:23,363 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-13 16:17:23,363 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-04-13 16:17:36,761 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-04-13 16:17:36,776 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-04-13 16:17:41,049 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-13 16:17:41,062 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-13 16:17:41,064 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

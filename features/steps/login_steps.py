@@ -46,6 +46,10 @@ def step_impl(context):
     current_url = context.driver.current_url
     print(f"[DEBUG] Current URL after login: {current_url}")
     
+<<<<<<< HEAD
     assert "login" not in current_url.lower() or "dashboard" in current_url.lower(), \
+=======
+    assert "https://staging-app.brightcone.ai" in current_url.lower() and ("login" not in current_url.lower() or "dashboard" in current_url.lower()), \
+>>>>>>> a47c1fe2ef3455fd6c1379e7bfde553d708c9201
         f"Login verification failed! Current URL: {current_url}"
     print("[SUCCESS] Login verified successfully!")

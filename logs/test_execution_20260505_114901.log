@@ -1,0 +1,18 @@
+2026-05-05 11:49:03,933 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-05 11:49:03,936 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-05 11:49:03,936 - Bright_Automation - INFO - Current Execution Role: ADMIN
+2026-05-05 11:49:03,937 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: True
+2026-05-05 11:49:03,969 - Bright_Automation - INFO - Scenario: Add interview slot manually and verify date and time - STARTED
+2026-05-05 11:49:03,969 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: True
+2026-05-05 11:49:03,970 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=True)...
+2026-05-05 11:49:29,154 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-05 11:49:29,184 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Add interview slot manually and verify date and time' and Role: 'admin'
+2026-05-05 11:49:29,186 - Bright_Automation - INFO - Test data loaded for scenario: Add interview slot manually and verify date and time
+2026-05-05 11:49:29,187 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role admin
+2026-05-05 11:49:31,522 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-05-05 11:49:31,523 - Bright_Automation - INFO - Logging in with email: harikrishnamunjala@yanthraa.com (Role: admin)
+2026-05-05 11:49:32,203 - Bright_Automation - INFO - Waiting 10s for OTP...
+2026-05-05 11:49:50,287 - Bright_Automation - INFO - Navigating to Recruitment module for role: admin
+2026-05-05 11:49:51,304 - Bright_Automation - INFO - Selecting role from dropdown: QA Engineer
+2026-05-05 11:50:24,370 - Bright_Automation - INFO - Test execution completed.
+2026-05-05 11:50:24,371 - Bright_Automation - INFO - Total Execution Time: 80.44s

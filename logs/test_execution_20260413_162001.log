@@ -1,0 +1,41 @@
+2026-04-13 16:20:01,874 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-13 16:20:01,874 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-13 16:20:05,344 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-13 16:20:05,365 - Bright_Automation - INFO - --- START FEATURE: Document Upload and Status Validation ---
+2026-04-13 16:20:05,377 - Bright_Automation - INFO - Scenario: Upload document and verify its status - Status: STARTED
+2026-04-13 16:20:05,387 - Bright_Automation - INFO -   Step: GIVEN User launches the application
+2026-04-13 16:20:07,389 - Bright_Automation - INFO -   Step: User launches the application - Status: PASSED
+2026-04-13 16:20:07,399 - Bright_Automation - INFO -   Step: GIVEN User logs in with valid credentials
+2026-04-13 16:20:32,390 - Bright_Automation - INFO -   Step: User logs in with valid credentials - Status: PASSED
+2026-04-13 16:20:32,411 - Bright_Automation - INFO -   Step: THEN User should be on the "Dashboard" page
+2026-04-13 16:20:32,428 - Bright_Automation - INFO -   Step: User should be on the "Dashboard" page - Status: PASSED
+2026-04-13 16:20:32,430 - Bright_Automation - INFO -   Step: WHEN User navigates to Documents page
+2026-04-13 16:20:32,586 - Bright_Automation - INFO -   Step: User navigates to Documents page - Status: PASSED
+2026-04-13 16:20:32,587 - Bright_Automation - INFO -   Step: THEN User should be on the "Documents" page
+2026-04-13 16:20:32,613 - Bright_Automation - INFO -   Step: User should be on the "Documents" page - Status: PASSED
+2026-04-13 16:20:32,663 - Bright_Automation - INFO -   Step: WHEN User uploads a document
+2026-04-13 16:20:42,159 - Bright_Automation - INFO -   Step: User uploads a document - Status: PASSED
+2026-04-13 16:20:42,159 - Bright_Automation - INFO -   Step: WHEN User selects the "Admin", "Engineering" and "Support" categories
+2026-04-13 16:20:45,583 - Bright_Automation - INFO -   Step: User selects the "Admin", "Engineering" and "Support" categories - Status: PASSED
+2026-04-13 16:20:45,584 - Bright_Automation - INFO -   Step: WHEN User clicks the "Upload" button
+2026-04-13 16:20:47,728 - Bright_Automation - INFO -   Step: User clicks the "Upload" button - Status: PASSED
+2026-04-13 16:20:47,730 - Bright_Automation - INFO -   Step: THEN a popup with text "Sensitive information detected. This has been flagged for review." should appear
+2026-04-13 16:20:58,178 - Bright_Automation - WARNING - Scenario: Upload document and verify its status - Status: SKIPPED
+
+2026-04-13 16:20:58,185 - Bright_Automation - INFO - --- END FEATURE: Document Upload and Status Validation ---
+2026-04-13 16:20:58,196 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-13 16:20:58,197 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-04-13 16:20:58,197 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-13 16:20:58,197 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-04-13 16:20:58,197 - Bright_Automation - INFO -   Scenarios Passed    : 0
+2026-04-13 16:20:58,197 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-04-13 16:20:58,198 - Bright_Automation - INFO -   Scenarios Skipped   : 1
+2026-04-13 16:20:58,198 - Bright_Automation - INFO -   Total Run Time      : 56.32s
+2026-04-13 16:20:58,199 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-04-13 16:20:58,200 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-13 16:20:58,200 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-04-13 16:21:11,743 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-04-13 16:21:11,783 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-04-13 16:21:16,148 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-13 16:21:16,153 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-13 16:21:16,153 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

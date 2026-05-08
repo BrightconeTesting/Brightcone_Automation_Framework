@@ -1,0 +1,24 @@
+2026-04-20 13:04:22,888 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-20 13:04:22,894 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-20 13:04:22,896 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-20 13:04:22,896 - Bright_Automation - INFO - Selected Browser for Run: EDGE
+2026-04-20 13:04:22,914 - Bright_Automation - INFO - Scenario: Add a resume for ML Engineer role - STARTED
+2026-04-20 13:04:22,914 - Bright_Automation - DEBUG - Launching edge for scenario: Add a resume for ML Engineer role
+2026-04-20 13:04:22,916 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: edge
+2026-04-20 13:04:22,916 - Bright_Automation - INFO - Setting up Edge WebDriver...
+2026-04-20 13:04:32,812 - Bright_Automation - WARNING - WebDriver Manager failed for Edge: Could not reach host. Are you offline?. Falling back to Selenium Manager.
+2026-04-20 13:04:39,957 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Add a resume for ML Engineer role' and Role: 'user'
+2026-04-20 13:04:39,959 - Bright_Automation - INFO - Test data loaded for scenario: Add a resume for ML Engineer role
+2026-04-20 13:04:40,009 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-04-20 13:04:42,418 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-04-20 13:04:42,421 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-04-20 13:04:43,722 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-04-20 13:05:10,143 - Bright_Automation - INFO - Navigating to Recruitment module...
+2026-04-20 13:05:10,601 - Bright_Automation - INFO - Clicking Continue button for role: ML Engineer
+2026-04-20 13:05:13,783 - Bright_Automation - INFO - Navigating to Candidate upload section...
+2026-04-20 13:05:14,951 - Bright_Automation - INFO - Uploading recruitment document: C:\Users\Dell\Downloads\Munjala_Anand_Tester_Resume (1).docx
+2026-04-20 13:05:18,762 - Bright_Automation - INFO - Checking for successful upload...
+2026-04-20 13:05:19,357 - Bright_Automation - INFO - Candidate verification successful!
+2026-04-20 13:05:19,360 - Bright_Automation - INFO - Quitting browser for scenario: Add a resume for ML Engineer role
+2026-04-20 13:05:22,111 - Bright_Automation - INFO - Test execution completed.
+2026-04-20 13:05:22,112 - Bright_Automation - INFO - Total Execution Time: 59.22s

@@ -1,0 +1,26 @@
+2026-05-04 12:37:02,254 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-04 12:37:02,260 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-04 12:37:02,261 - Bright_Automation - INFO - Current Execution Role: USER
+2026-05-04 12:37:02,261 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: True
+2026-05-04 12:37:02,292 - Bright_Automation - INFO - Scenario: Connect Google Drive and Verify Candidate Profile - STARTED
+2026-05-04 12:37:02,294 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: True
+2026-05-04 12:37:02,294 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=True)...
+2026-05-04 12:37:15,642 - Bright_Automation - WARNING - WebDriver Manager failed for Firefox: response body:
+{"message":"API rate limit exceeded for 124.123.14.18. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+request url:
+https://api.github.com/repos/mozilla/geckodriver/releases/latest
+response headers:
+{'Date': 'Mon, 04 May 2026 07:07:13 GMT', 'Server': 'Varnish', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains; preload', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'deny', 'X-XSS-Protection': '1; mode=block', 'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'", 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-RateLimit-Used, X-RateLimit-Resource, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset', 'Content-Type': 'application/json; charset=utf-8', 'Referrer-Policy': 'origin-when-cross-origin, strict-origin-when-cross-origin', 'X-GitHub-Media-Type': 'github.v3; format=json', 'X-RateLimit-Limit': '60', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Used': '60', 'X-RateLimit-Resource': 'core', 'X-RateLimit-Reset': '1777878953', 'Content-Length': '279', 'X-GitHub-Request-Id': 'E4B6:354852:1C0C1CA:2152904:69F845A1'}
+. Falling back to default.
+2026-05-04 12:37:24,867 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-04 12:37:24,895 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Connect Google Drive and Verify Candidate Profile' and Role: 'user'
+2026-05-04 12:37:24,896 - Bright_Automation - INFO - Test data loaded for scenario: Connect Google Drive and Verify Candidate Profile
+2026-05-04 12:37:24,937 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-05-04 12:37:27,545 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-05-04 12:37:27,545 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-05-04 12:37:28,351 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-05-04 12:37:53,323 - Bright_Automation - INFO - Navigating to Recruitment module...
+2026-05-04 12:37:53,564 - Bright_Automation - INFO - Searching and opening role: Test Engineer
+2026-05-04 12:38:27,447 - Bright_Automation - INFO - Test execution completed.
+2026-05-04 12:38:27,447 - Bright_Automation - INFO - Total Execution Time: 85.19s

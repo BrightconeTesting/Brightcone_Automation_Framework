@@ -1,0 +1,17 @@
+2026-05-04 16:01:19,928 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-04 16:01:19,930 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-04 16:01:19,930 - Bright_Automation - INFO - Current Execution Role: ADMIN
+2026-05-04 16:01:19,932 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: True
+2026-05-04 16:01:19,941 - Bright_Automation - INFO - Scenario: Add interview slot manually and verify date and time - STARTED
+2026-05-04 16:01:19,941 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: True
+2026-05-04 16:01:19,942 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=True)...
+2026-05-04 16:01:40,810 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-04 16:01:40,831 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Add interview slot manually and verify date and time' and Role: 'admin'
+2026-05-04 16:01:40,831 - Bright_Automation - ERROR - No test data found for Scenario: 'Add interview slot manually and verify date and time' with Role: 'admin'
+2026-05-04 16:01:40,835 - Bright_Automation - WARNING - Could not load specific Excel data for scenario: No test data found for Scenario: 'Add interview slot manually and verify date and time' with Role: 'admin'
+2026-05-04 16:01:40,839 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role admin
+2026-05-04 16:01:43,589 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-05-04 16:01:43,589 - Bright_Automation - INFO - Logging in with email: harikrishnamunjala@yanthraa.com (Role: admin)
+2026-05-04 16:01:44,124 - Bright_Automation - INFO - Waiting 10s for OTP...
+2026-05-04 16:02:27,467 - Bright_Automation - INFO - Test execution completed.
+2026-05-04 16:02:27,467 - Bright_Automation - INFO - Total Execution Time: 67.54s

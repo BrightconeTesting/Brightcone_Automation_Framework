@@ -1,0 +1,4 @@
+2026-04-20 12:55:10,866 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-20 12:55:10,870 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-20 12:55:10,873 - Bright_Automation - INFO - Test execution completed.
+2026-04-20 12:55:10,873 - Bright_Automation - INFO - Total Execution Time: 0.01s

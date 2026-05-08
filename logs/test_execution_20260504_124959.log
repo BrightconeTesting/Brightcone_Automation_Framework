@@ -1,0 +1,19 @@
+2026-05-04 12:50:01,215 - Bright_Automation - INFO - Initializing framework configuration...
+2026-05-04 12:50:01,218 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-05-04 12:50:01,218 - Bright_Automation - INFO - Current Execution Role: USER
+2026-05-04 12:50:01,218 - Bright_Automation - INFO - Selected Browser for Run: FIREFOX | Headless: True
+2026-05-04 12:50:01,242 - Bright_Automation - INFO - Scenario: Connect Google Drive and Verify Candidate Profile - STARTED
+2026-05-04 12:50:01,243 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: firefox | Headless: True
+2026-05-04 12:50:01,243 - Bright_Automation - INFO - Setting up Firefox WebDriver (Headless=True)...
+2026-05-04 12:50:40,891 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-05-04 12:50:40,912 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Connect Google Drive and Verify Candidate Profile' and Role: 'user'
+2026-05-04 12:50:40,913 - Bright_Automation - INFO - Test data loaded for scenario: Connect Google Drive and Verify Candidate Profile
+2026-05-04 12:50:40,921 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-05-04 12:50:51,523 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-05-04 12:50:51,525 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-05-04 12:50:52,247 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-05-04 12:51:16,507 - Bright_Automation - INFO - Navigating to Recruitment module...
+2026-05-04 12:51:16,674 - Bright_Automation - INFO - Clicking My Queue icon...
+2026-05-04 12:51:17,805 - Bright_Automation - INFO - Searching and opening role: Test Engineer
+2026-05-04 12:51:51,383 - Bright_Automation - INFO - Test execution completed.
+2026-05-04 12:51:51,384 - Bright_Automation - INFO - Total Execution Time: 110.17s

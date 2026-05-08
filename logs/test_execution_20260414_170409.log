@@ -1,0 +1,25 @@
+2026-04-14 17:04:09,575 - Bright_Automation - INFO - Initializing global test configuration...
+2026-04-14 17:04:09,575 - Bright_Automation - INFO - Launching Chrome browser...
+2026-04-14 17:04:13,342 - Bright_Automation - INFO - Browser launched successfully.
+2026-04-14 17:04:13,508 - Bright_Automation - INFO - --- START FEATURE: Resume Management in Recruitment Module ---
+2026-04-14 17:04:13,630 - Bright_Automation - INFO - Scenario: Validate Approve Shortlist button behavior and navigation to Interview Management - Status: STARTED
+2026-04-14 17:04:13,724 - Bright_Automation - INFO -   Step: GIVEN User is logged into the application
+2026-04-14 17:04:30,822 - Bright_Automation - WARNING - Scenario: Validate Approve Shortlist button behavior and navigation to Interview Management - Status: SKIPPED
+
+2026-04-14 17:04:30,828 - Bright_Automation - INFO - --- END FEATURE: Resume Management in Recruitment Module ---
+2026-04-14 17:04:30,830 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-14 17:04:30,830 - Bright_Automation - INFO -  RUNTIME TEST EXECUTION SUMMARY (TARGETED SCOPE) 
+2026-04-14 17:04:30,830 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-14 17:04:30,830 - Bright_Automation - INFO -   Scenarios Selected  : 1
+2026-04-14 17:04:30,830 - Bright_Automation - INFO -   Scenarios Passed    : 0
+2026-04-14 17:04:30,830 - Bright_Automation - INFO -   Scenarios Failed    : 0
+2026-04-14 17:04:30,830 - Bright_Automation - INFO -   Scenarios Skipped   : 1
+2026-04-14 17:04:30,834 - Bright_Automation - INFO -   Total Run Time      : 21.26s
+2026-04-14 17:04:30,834 - Bright_Automation - INFO -   Overall Status      : PASS
+2026-04-14 17:04:30,834 - Bright_Automation - INFO - --------------------------------------------------
+2026-04-14 17:04:30,834 - Bright_Automation - INFO - Quitting browser in 10 seconds (for debugging)...
+2026-04-14 17:04:44,279 - Bright_Automation - INFO - Automatically generating Allure HTML report with History and Environment data...
+2026-04-14 17:04:44,363 - Bright_Automation - INFO - Preserved execution history for Trends.
+2026-04-14 17:04:49,734 - Bright_Automation - INFO - Allure report generated in: reports/allure-report
+2026-04-14 17:04:49,751 - Bright_Automation - INFO - Cleaned up raw JSON results folder.
+2026-04-14 17:04:49,751 - Bright_Automation - INFO - To view, run: allure open reports/allure-report

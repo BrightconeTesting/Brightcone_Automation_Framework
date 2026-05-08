@@ -1,0 +1,23 @@
+2026-04-20 16:41:12,866 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-20 16:41:12,868 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-20 16:41:12,869 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-20 16:41:12,869 - Bright_Automation - INFO - Selected Browser for Run: CHROME
+2026-04-20 16:41:12,875 - Bright_Automation - INFO - Scenario: Upload document and verify its status - STARTED
+2026-04-20 16:41:12,875 - Bright_Automation - DEBUG - Initializing WebDriverFactory for: chrome
+2026-04-20 16:41:12,875 - Bright_Automation - INFO - Setting up Chrome WebDriver...
+2026-04-20 16:41:19,667 - Bright_Automation - INFO - Resolved Excel file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\excel\recruitment_data.xlsx
+2026-04-20 16:41:19,699 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Upload document and verify its status' and Role: 'user'
+2026-04-20 16:41:19,700 - Bright_Automation - INFO - Test data loaded for scenario: Upload document and verify its status
+2026-04-20 16:41:19,702 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-04-20 16:41:22,331 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-04-20 16:41:22,331 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-04-20 16:41:23,211 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-04-20 16:41:52,038 - Bright_Automation - INFO - Navigating to Documents page...
+2026-04-20 16:41:52,195 - Bright_Automation - INFO - Selecting category from Excel: 'Engineering'
+2026-04-20 16:41:54,338 - Bright_Automation - INFO - Selecting category from Excel: 'Admin'
+2026-04-20 16:41:55,485 - Bright_Automation - INFO - Selecting category from Excel: 'General'
+2026-04-20 16:41:56,602 - Bright_Automation - INFO - Resolved test file path: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\files\Prasaanthi_ML_Resume.pdf
+2026-04-20 16:41:56,603 - Bright_Automation - INFO - Uploading document: C:\Users\Dell\OneDrive\Desktop\Bright_Automation_Before_Adding_Session\testdata\files\Prasaanthi_ML_Resume.pdf
+2026-04-20 16:41:56,673 - Bright_Automation - INFO - Clicking the final Upload button...
+2026-04-20 16:42:02,950 - Bright_Automation - INFO - Test execution completed.
+2026-04-20 16:42:02,950 - Bright_Automation - INFO - Total Execution Time: 50.08s

@@ -8,7 +8,11 @@ class LoginPage(BasePage):
 
     def __init__(self, driver):
         super().__init__(driver)
+<<<<<<< HEAD
         self.url = "https://app.brightcone.ai/login"
+=======
+        self.url = "https://staging-app.brightcone.ai"
+>>>>>>> a47c1fe2ef3455fd6c1379e7bfde553d708c9201
 
     def open(self):
         self.driver.get(self.url)

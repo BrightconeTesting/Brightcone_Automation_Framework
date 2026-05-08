@@ -1,0 +1,19 @@
+2026-04-15 17:04:18,564 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-15 17:04:18,564 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-15 17:04:18,564 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-15 17:04:22,601 - Bright_Automation - INFO - Browser launched for staging
+2026-04-15 17:04:22,670 - Bright_Automation - INFO - Scenario: Upload and verify engineer resume - STARTED
+2026-04-15 17:04:22,778 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Upload and verify engineer resume' and Role: 'user'
+2026-04-15 17:04:22,781 - Bright_Automation - INFO - Test data loaded for scenario: Upload and verify engineer resume
+2026-04-15 17:04:22,796 - Bright_Automation - DEBUG - Scenario Data: {'scenario': 'Upload and verify engineer resume', 'role': 'user', 'file_name': 'Engineer_Resume.pdf', 'expected_result': 'uploaded document was uder review', 'category': 'Engineering,Admin,General'}
+2026-04-15 17:04:22,810 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-04-15 17:04:24,957 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-04-15 17:04:24,957 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-04-15 17:04:25,970 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-04-15 17:04:52,917 - Bright_Automation - INFO - Navigating to Documents page...
+2026-04-15 17:04:53,096 - Bright_Automation - INFO - Selecting category from Excel: 'Engineering'
+2026-04-15 17:04:55,161 - Bright_Automation - INFO - Selecting category from Excel: 'Admin'
+2026-04-15 17:04:56,343 - Bright_Automation - INFO - Selecting category from Excel: 'General'
+2026-04-15 17:04:57,534 - Bright_Automation - INFO - Uploading document from path: C:\Users\Dell\Downloads\Engineer_Resume.pdf
+2026-04-15 17:05:05,311 - Bright_Automation - INFO - Clicking the final Upload button...
+2026-04-15 17:05:23,337 - Bright_Automation - INFO - Test execution completed.

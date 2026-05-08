@@ -1,0 +1,21 @@
+2026-04-20 11:59:09,881 - Bright_Automation - INFO - Initializing framework configuration...
+2026-04-20 11:59:09,883 - Bright_Automation - INFO - Target Environment: STAGING | URL: https://staging-app.brightcone.ai/login
+2026-04-20 11:59:09,883 - Bright_Automation - INFO - Current Execution Role: USER
+2026-04-20 11:59:13,695 - Bright_Automation - INFO - Browser launched for Staging
+2026-04-20 11:59:13,713 - Bright_Automation - INFO - Scenario: Upload document and verify its status - STARTED
+2026-04-20 11:59:13,765 - Bright_Automation - DEBUG - Filtering data for Scenario: 'Upload document and verify its status' and Role: 'user'
+2026-04-20 11:59:13,781 - Bright_Automation - INFO - Test data loaded for scenario: Upload document and verify its status
+2026-04-20 11:59:13,781 - Bright_Automation - DEBUG - Scenario Data: {'scenario': 'Upload document and verify its status', 'role': 'user', 'file_name': 'Prasaanthi_ML_Resume.pdf', 'expected_result': ' Sensitive innformation detected. This has been flagged for review.', 'category': 'Engineering,Admin,General'}
+2026-04-20 11:59:13,795 - Bright_Automation - INFO - Launching app at https://staging-app.brightcone.ai/login for role user
+2026-04-20 11:59:16,372 - Bright_Automation - INFO - Target Base URL: https://staging-app.brightcone.ai/login
+2026-04-20 11:59:16,374 - Bright_Automation - INFO - Logging in with email: munjalaharikrishna123@gmail.com (Role: user)
+2026-04-20 11:59:17,919 - Bright_Automation - INFO - Waiting 15s for OTP...
+2026-04-20 11:59:44,013 - Bright_Automation - INFO - Navigating to Documents page...
+2026-04-20 11:59:44,316 - Bright_Automation - INFO - Selecting category from Excel: 'Engineering'
+2026-04-20 11:59:46,419 - Bright_Automation - INFO - Selecting category from Excel: 'Admin'
+2026-04-20 11:59:47,593 - Bright_Automation - INFO - Selecting category from Excel: 'General'
+2026-04-20 11:59:48,821 - Bright_Automation - INFO - Uploading document from path: C:\Users\Dell\Downloads\Prasaanthi_ML_Resume.pdf
+2026-04-20 11:59:56,302 - Bright_Automation - INFO - Clicking the final Upload button...
+2026-04-20 11:59:56,508 - Bright_Automation - INFO - Verifying popup matches expected text:  Sensitive innformation detected. This has been flagged for review.
+2026-04-20 12:00:00,409 - Bright_Automation - ERROR - Step 'a popup with correctly matched text should appear' FAILED
+2026-04-20 12:00:03,554 - Bright_Automation - INFO - Test execution completed.

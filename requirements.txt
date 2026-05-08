@@ -5,6 +5,11 @@ behave
 behave-html-formatter
 allure-behave
 allure-python-commons
+<<<<<<< HEAD
 pyautogui
 pyperclip
 python-dotenv
+=======
+python-dotenv
+openpyxl
+>>>>>>> a47c1fe2ef3455fd6c1379e7bfde553d708c9201
